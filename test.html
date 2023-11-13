@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>bobbyhadz.com</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <button id="btn">Click me</button>
+
+    <script>
+const btn = document.getElementById('btn');
+
+// ✅ Toggle button text on click
+btn.addEventListener('click', function handleClick() {
+  const initialText = 'Click me';
+
+  if (btn.innerHTML.toLowerCase().includes(initialText.toLowerCase())) {
+    btn.innerHTML = 'Button clicked';
+  } else {
+    btn.innerHTML = initialText;
+  }
+});
+
+/**
+ * ✅ If you need to change the button's inner HTML use:
+ *  - `innerHTML` instead of `innerHTML`
+ */
+
+    
+    </script>
+  </body>
+</html>

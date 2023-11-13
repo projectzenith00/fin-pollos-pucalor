@@ -1,0 +1,61 @@
+/*----------------------------------
+    MEDIUM LAYOUT: 1280px
+-----------------------------------*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        font-size: 1.364vw;
+    }
+    .big-text {
+        font-size: 7.273vw;
+    }
+    .navbar-header {
+        margin-top: -8px;
+    }
+    .navbar-header img {
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+    }
+    .is-sticky .navbar-header img {
+        width: 80%;
+        margin-top: -5px;
+    }
+    ul#nav li a {
+        padding: 30px 15px;
+        letter-spacing: 0;
+    }
+    .is-sticky ul#nav li a {
+        padding: 20px 15px;
+    }
+    .search-form-area {
+        padding: 25px 15px;
+    }
+    .is-sticky .search-form-area {
+        padding: 15px;
+    }
+    .slider-area h1, .welcome-text h1 {
+        font-size: 4.545vw;
+    }
+    .slider-area h2, .welcome-text h2 {
+        font-size: 6.364vw;
+    }
+    .about-area .area-title {
+        margin-bottom: 2.727vw;
+    }
+    .about-area .area-title h2 {
+        font-size: 5.455vw;
+    }
+    .about-area .area-title h2 span {
+        font-size: 3.636vw;
+    }
+    .promotions-img {
+        max-height: 380px;
+        width: 80%;
+    }
+    .promotions-details {
+        height: 350px;
+        margin-top: -175px;
+        max-height: 350px;
+        width: 40%;
+    }
+}
