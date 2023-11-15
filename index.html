@@ -116,7 +116,6 @@
                             <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
                                 <div class="search-form-area">
                                     <div class="search-form-overlay"></div>
-                                    <a class="btn" href="#home" onclick="toggleLanguage()">ENGLISH</a>
                                     <div id="search-form" class="search-form">
                                         <form>
                                             <input type="search" placeholder="Search..." />
@@ -124,34 +123,57 @@
                                     </div>
                                 </div>
                                 <ul id="nav" class="nav navbar-nav">
-                                    
                                     <li class="active"><a href="#home">Home</a></li>
-                                    <li>
+
+                                    <!-- START OF MENU SPANISH CONTENT -->
+                                    <li content-es>
                                         <a href="#about">
-                                            <span class="content-es">Sobre Nosotros</span>
-                                            <span class="content-en">About Us</span>
+                                            Sobre Nosotros
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#about">
-                                            <span class="content-es">Destacados</span>
-                                            <span class="content-en">Featured</span>
+                                    <li content-es>
+                                        <a href="#featured">
+                                            Destacados
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#about">
+                                    <li content-es>
+                                        <a href="#menu">
                                             Menu
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#about">
-                                            <span class="content-es">Galleria</span>
-                                            <span class="content-en">Gallery</span>
+                                    <li content-es>
+                                        <a href="#gallery">
+                                            Galleria
                                         </a>
                                     </li>
-                                    <li><a href="#contact">Contact</a></li>
+                                    <!-- START OF MENU SPANISH CONTENT -->
 
-                                    <li></li>
+                                    <!-- START OF MENU ENGLISH CONTENT -->
+                                    <li style="display: none;" content-en>
+                                        <a href="#about">
+                                            About Us
+                                        </a>
+                                    </li style="display: none;" content-en>
+                                    <li style="display: none;" content-en>
+                                        <a href="#featured">
+                                            Featured
+                                        </a>
+                                    </li style="display: none;" content-en>
+                                    <li style="display: none;" content-en>
+                                        <a href="#menu">
+                                            Menu
+                                        </a>
+                                    </li style="display: none;" content-en>
+                                    <li style="display: none;" content-en>
+                                        <a href="#gallery">
+                                            Galleria
+                                        </a>
+                                    </li style="display: none;" content-en>
+                                    <!-- END OF MENU ENGLISH CONTENT -->
+                                    <li><a href="#contact">Contact</a></li>
+                                    <li>
+                                        <a href="#" id="languageToggle" onclick="toggleLanguage()">ENGLISH</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -163,25 +185,32 @@
             <!--WELCOME TEXT AREA-->
             <div class="welcome-text-area">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                            
-                            <div class="welcome-text" >
-                                <span class="content-es"><h2>Bienvenidos a Pollos Pucalor</h2></span>
-                                <span class="content-en"><h2>Welcome to Pollos Pucalor</h2></span>
-                                <h1 class="cd-headline clip is-full-width">
-                                    <span class="content-es"><span class="hero-text">La Casa Del</span></span>
-                                    <span class="content-en"><span class="hero-text">The House of</span></span>
-                                    <span class="cd-words-wrapper" style="font-weight: 800;">
-                                        <b class="is-visible" style="font-weight: 800;">Pollo</b>
-                                        <b style="font-weight: 800;">Toston</b>
-                                        <b style="font-weight: 800;">Maduro</b>
-                                    </span>
-                                </h1>
-                                <!-- <a class="home-reservation-button"  href="#reservation-form-modal" data-toggle="modal">Book A Table</a> -->
+                    
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                <div class="welcome-text">
+
+                                    <!-- START OF ENGLISH CONTENT -->
+                                    <h2 style="display: none;" content-en>Welecome to Pollos Pucalor</h2>
+                                    <!-- END OF ENGLISH CONTENT -->
+
+                                    <!-- START OF SPANISH CONTENT -->
+                                    <h2 content-es>Bienvenidos a Pollos Pucalor</h2>
+                                    <!-- START OF SPANISH CONTENT -->
+                                    <h1 class="cd-headline clip is-full-width">
+                                        <span class="hero-text">La Casa Del</span>
+                                        <span class="cd-words-wrapper" style="font-weight: 800;">
+                                            <b class="is-visible" style="font-weight: 800;">Pollo</b>
+                                            <b style="font-weight: 800;">Toston</b>
+                                            <b style="font-weight: 800;">Maduro</b>
+                                        </span>
+                                    </h1>
+                                    <!-- <a class="home-reservation-button"  href="#reservation-form-modal" data-toggle="modal">Book A Table</a> -->
+                                </div>
                             </div>
                         </div>
-                    </div>
+                  
+                </div>
                 </div>
             </div>
             <!--WELCOME TEXT AREA END-->
@@ -191,7 +220,7 @@
         <section class="about-area section-padding" id="about">
             <div class="container wow fadeIn">
                 <!-- START OF ABOUT US SPANISH CONTENT -->
-                <div class="content-es">
+                <div content-es>
                     <div class="row">
                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                             <div class="area-title text-center">
@@ -222,7 +251,7 @@
                 </div>
                 <!-- END OF ABOUT US SPANISH CONTENT -->
                 <!-- START OF ABOUT US ENGLISH CONTENT -->
-                <div class="content-en">
+                <div style="display: none;" content-en>
                     <div class="row">
                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                             <div class="area-title text-center">
@@ -260,12 +289,11 @@
         <section class="promotions-area section-padding" id="featured">
             <div class="promotion-area-bg" data-stellar-background-ratio="0.6"></div>
             <div class="container wow fadeIn">
-                <!-- START OF FEATURED AREA SPANISH CONTENT -->
-                <div class="content-es">
                     <div class="row">
                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                             <div class="area-title text-center">
-                                <h2>Destacados</h2>
+                                <h2 content-es>Destacados</h2>
+                                <h2 style="display: none;" content-en>Featured</h2>
                             </div>
                         </div>
                     </div>
@@ -276,9 +304,12 @@
                                     <img src="img/promotions/whole_chicken.jpeg" alt="" />
                                 </div>
                                 <div class="promotions-details">
-                                    <h3>POLLO ENTERO - $14.56</h3>
-                                    <p>Saboree la aromática infusión de hierbas y especias de nuestro Pollo asado a las hierbas. Crujiente por fuera, tierno por dentro, es un eterno favorito que nunca pasa de moda.</p>
-                                    <!-- <a href="#" class="read-more">Order now</a> -->
+                                    <h3 content-es>POLLO ENTERO - $14.56</h3>
+                                    <p content-es>Saboree la aromática infusión de hierbas y especias de nuestro Pollo asado a las hierbas. Crujiente por fuera, tierno por dentro, es un eterno favorito que nunca pasa de moda.</p>
+
+                                    <h3 style="display: none;" content-en>WHOLE CHICKEN - $14.56</h3>
+                                    <p style="display: none;" content-en>Savor the aromatic infusion of herbs and spices in our Herb Roasted Chicken. Crispy on the outside, tender on the inside, it's a perennial favorite that never goes out of style.</p>
+                                   
                                 </div>
                             </div>
                             <div class="single-promotions">
@@ -286,9 +317,11 @@
                                     <img src="img/promotions/stewed_potatoes.jpeg" alt="" />
                                 </div>
                                 <div class="promotions-details">
-                                    <h3>PAPA GUISADA - $2.91</h3>
-                                    <p>Este sustancioso plato incluye tiernas patatas cocidas a fuego lento en un sabroso guiso, una deliciosa mezcla de texturas y sabores que te dejará con ganas de más.</p>
-                                    <!-- <a href="#" class="read-more">Order now</a> -->
+                                    <h3 content-es>PAPA GUISADA - $2.91</h3>
+                                    <p content-es>Este sustancioso plato incluye tiernas patatas cocidas a fuego lento en un sabroso guiso, una deliciosa mezcla de texturas y sabores que te dejará con ganas de más.</p>
+                                    
+                                    <h3 style="display: none;" content-en>STEW POTATO - $2.91</h3>
+                                    <p style="display: none;" content-en>This hearty dish features tender potatoes simmered in a savory stew, a delicious blend of textures and flavors that will leave you wanting more.</p>
                                 </div>
                             </div>
                             <div class="single-promotions">
@@ -296,12 +329,14 @@
                                     <img src="img/promotions/chicharron.jpeg" alt="" />
                                 </div>
                                 <div class="promotions-details">
-                                    <h3>CHICHARRON $4.38</h3>
-                                    <p>
+                                    <h3 content-es>CHICHARRON $4.38</h3>
+                                    <p content-es>
                                         Nuestra carne de cerdo frita y dorada ofrece un delicioso crujido y una explosión de sabor en cada bocado. Perfecto como tentempié o aperitivo, el Chicharrón es un capricho crujiente al que es
                                         imposible resistirse.
                                     </p>
-                                    <!-- <a href="#" class="read-more">Order now</a> -->
+
+                                    <h3 style="display: none;" content-en>CHICHARRON $4.38</h3>
+                                    <p style="display: none;" content-en>Our deep-fried, browned pork delivers a delicious crunch and burst of flavor in every bite. Perfect as a snack or appetizer, Chicharrón is a crunchy treat that is impossible to resist.</p>
                                 </div>
                             </div>
                             <div class="single-promotions">
@@ -309,18 +344,21 @@
                                     <img src="img/promotions/maduros.jpeg" alt="" />
                                 </div>
                                 <div class="promotions-details">
-                                    <h3>MADUROS $3.88</h3>
-                                    <p>
+                                    <h3 content-es>MADUROS $3.88</h3>
+                                    <p content-es>
                                         Estos plátanos maduros se caramelizan a la perfección, ofreciendo una sinfonía de sabores indulgentes e inolvidables. Los maduros son una deliciosa guarnición o un delicioso capricho, un sabor a
                                         paraíso tropical en cada bocado.
                                     </p>
-                                    <!-- <a href="#" class="read-more">Order now</a> -->
+
+                                    <h3 style="display: none;" content-en>MADUROS $3.88</h3>
+                                    <p> style="display: none;" content-enThese ripe bananas caramelize to perfection, offering a symphony of indulgent and unforgettable flavors. Maduros are a delicious garnish or a delicious treat, a taste of
+                                        Tropical paradise in every bite.</p>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- END OF FEATURED AREA SPANISH CONTENT -->
+
             </div>
         </section>
         <!--SPEACIAL PROMOTIONS AREA END-->
@@ -338,12 +376,19 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                         <div class="food-menu-list-menu">
-                            <ul>
+                            <ul content-es>
                                 <li class="filter active" data-filter="all">Ver Todos</li>
                                 <li class="filter" data-filter=".acompanamientos">Acompañamientos</li>
                                 <li class="filter" data-filter=".especialidades">Especialidades</li>
                                 <li class="filter" data-filter=".polloAsado">Pollo Asado</li>
                                 <li class="filter" data-filter=".bebidas">Bebidas</li>
+                            </ul>
+                            <ul style="display:none;" content-en>
+                                <li class="filter active" data-filter="all">See All</li>
+                                <li class="filter" data-filter=".acompanamientos">Accompaniments</li>
+                                <li class="filter" data-filter=".especialidades">Specialties</li>
+                                <li class="filter" data-filter=".polloAsado">Grilled Chicken</li>
+                                <li class="filter" data-filter=".bebidas">Drinks</li>
                             </ul>
                         </div>
                     </div>
@@ -740,21 +785,29 @@
 
         <!--====== SCRIPTS JS ======-->
         <script>
-            function toggleLanguage() {
-                const contentEs = document.querySelector(".content-es");
-                const contentEn = document.querySelector(".content-en");
-                const toggleButton = document.querySelector(".btn");
+          function toggleLanguage() {
+            const languageToggle = document.getElementById('languageToggle');
+            const contentEsElements = document.querySelectorAll('[content-es]');
+            const contentEnElements = document.querySelectorAll('[content-en]');
 
-                if (contentEs.style.display !== "none") {
-                    contentEs.style.display = "none";
-                    contentEn.style.display = "block";
-                    toggleButton.innerHTML = "ENGLISH";
-                } else {
-                    contentEs.style.display = "block";
-                    contentEn.style.display = "none";
-                    toggleButton.innerHTML = "ESPAÑOL";
-                }
+            if (languageToggle.textContent === 'ENGLISH') {
+              languageToggle.textContent = 'ESPAÑOL';
+              toggleContentVisibility(contentEsElements, contentEnElements);
+            } else {
+              languageToggle.textContent = 'ENGLISH';
+              toggleContentVisibility(contentEnElements, contentEsElements);
             }
+          }
+
+          function toggleContentVisibility(hideElements, showElements) {
+            hideElements.forEach(element => {
+              element.style.display = 'none';
+            });
+
+            showElements.forEach(element => {
+              element.style.display = 'block';
+            });
+          }
         </script>
 
         <script>

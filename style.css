@@ -2256,8 +2256,12 @@ ul.blog-instagram-feed-widget li {
     display: none !important;
 }
 
-.content-en {
-    display: none;
+[content-es] {
+  display: block;
+}
+
+[content-en] {
+  display: none;
 }
 
 .btn-cust {
