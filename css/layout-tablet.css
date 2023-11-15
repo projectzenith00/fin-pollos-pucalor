@@ -7,13 +7,17 @@
         font-size: 1.667vw;
     }
 
-    /*.header-top-area .container {
+    /* .header-top-area .container {
         padding: 1% 1.5%;
-    }
-    .navbar .container {
-        padding-left: 2%;
-        padding-right: 2%;
     }*/
+
+    .top-social-cust {
+        display: flex !important;
+        flex-wrap: nowrap;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
     .big-text {
         font-size: 8.889vw;
     }
@@ -51,6 +55,7 @@
         margin: 0;
         padding: 15px 0;
     }
+
     .is-sticky .navbar-header {
         border: 0 none;
     }
@@ -95,8 +100,8 @@
     ul#nav li a {
         color: #fff;
     }
-    ul#nav li.active>a,
-    ul#nav li:hover>a {
+    ul#nav li.active > a,
+    ul#nav li:hover > a {
         color: #ca3d26;
     }
     ul#nav li.active a::before {
@@ -122,11 +127,12 @@
     .call-to-action p {
         display: inline-block;
     }
-    .slider-area h1, .welcome-text h1 {
+    .slider-area h1,
+    .welcome-text h1 {
         font-size: 4.444vw;
     }
-    .area-title h2, 
-    .about-area .area-title h2, 
+    .area-title h2,
+    .about-area .area-title h2,
     .resarvation-from-button.text-center h2 {
         font-size: 7vw;
     }
@@ -180,7 +186,7 @@
         font-size: 2.6vw;
         padding-top: 8%;
     }
-    .promotions-area .row>div:last-child .single-promotions .read-more {
+    .promotions-area .row > div:last-child .single-promotions .read-more {
         margin-bottom: 0;
     }
     .blog-post-img img {
@@ -206,14 +212,14 @@
     .footer-address {
         padding-left: 20px;
         padding-right: 20px;
-        }
+    }
     .table-booking-form input,
     .table-booking-form select {
         margin-bottom: 30px;
     }
     /*-----------------------------
-        BLOG PAGE
-    ------------------------------*/
+            BLOG PAGE
+        ------------------------------*/
     .single-post-pagination .page-pagination {
         margin-bottom: 40px;
     }
@@ -226,11 +232,19 @@
     .reservation-call-to-action {
         margin-bottom: 40px;
     }
-}
-/*-----------------------------
-        MENU SECTION
-    ------------------------------*/
-.single-menu .single-menu-details {
-    /*padding-bottom: 10%;*/
 
+    /*-----------------------------
+            MENU SECTION
+        ------------------------------*/
+    .single-menu .single-menu-details {
+        /*padding-bottom: 10%;*/
+    }
+    .headerInfo-contact-social-row {
+        display: flex;
+        padding-top: 0.8%;
+        padding-bottom: 0.8%;
+    }
+    /*   .navbar-header {
+        width: 100%;
+    }*/
 }

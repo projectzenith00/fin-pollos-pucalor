@@ -9,12 +9,20 @@
     .big-text {
         font-size: 7.273vw;
     }
-    .navbar-header {
+    /* .navbar-header {
         margin-top: -8px;
-    }
+    }*/
     .navbar-header img {
         -webkit-transition: 0.3s;
         transition: 0.3s;
+    }
+    .navbar .container {
+    }
+    .top-social-cust {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
     .is-sticky .navbar-header img {
         width: 80%;
@@ -33,10 +41,12 @@
     .is-sticky .search-form-area {
         padding: 15px;
     }
-    .slider-area h1, .welcome-text h1 {
+    .slider-area h1,
+    .welcome-text h1 {
         font-size: 4.545vw;
     }
-    .slider-area h2, .welcome-text h2 {
+    .slider-area h2,
+    .welcome-text h2 {
         font-size: 6.364vw;
     }
     .about-area .area-title {
@@ -58,4 +68,9 @@
         max-height: 350px;
         width: 40%;
     }
+}
+.headerInfo-contact-social-row {
+    display: flex;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
 }

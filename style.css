@@ -26,12 +26,11 @@ Version: 2.0
     14. SINGLE BLOG PAGE
 ----------------------------------------------------------------------------------------*/
 
-
 /*--------------------
    1. BASE CSS
 ----------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Lato:400,700|PT+Sans+Narrow:400,700');
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Lato:400,700|PT+Sans+Narrow:400,700");
 .alignleft {
     float: left;
     margin-right: 15px;
@@ -81,7 +80,7 @@ h6 {
 
 html,
 body {
-    height: 100%
+    height: 100%;
 }
 
 body {
@@ -94,9 +93,8 @@ body {
 }
 
 a:hover {
-    text-decoration: none
+    text-decoration: none;
 }
-
 
 /* Remove Chrome Input Field's Unwanted Yellow Background Color */
 
@@ -179,7 +177,6 @@ input:-webkit-autofill:focus {
     background: #f3f4f4;
 }
 
-
 /*--------------------------
     2. TOP AREA
 ---------------------------*/
@@ -244,7 +241,6 @@ input:-webkit-autofill:focus {
     background: #fff none repeat scroll 0 0;
     color: #ca3d26;
 }
-
 
 /*---------------------------------
     2.1 MAINMENU AREA
@@ -317,7 +313,7 @@ ul#nav li a {
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 2px;
-    padding: 40px 20px;
+    padding: 40px 15px;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -389,9 +385,8 @@ ul#nav li.active a {
 }
 
 .is-sticky .navbar-header {
-    margin-top: -7px;
+   /* margin-top: -7px;*/
 }
-
 
 /*-----------------------------------
     2.2 SLIDER AREA
@@ -405,7 +400,7 @@ ul#nav li.active a {
 }
 
 .slider-area {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     height: 100%;
     width: 100%;
     position: relative;
@@ -425,7 +420,7 @@ ul#nav li.active a {
 }
 
 .slider-area h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 82px;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -486,7 +481,7 @@ a.home-reservation-button:hover {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding-top: 5%
+    padding-top: 5%;
 }
 
 .pogoSlider-slide::after {
@@ -500,7 +495,6 @@ a.home-reservation-button:hover {
     width: 100%;
     z-index: -1;
 }
-
 
 /*----------------------------
     2.3 SEARCH FORM AREA
@@ -563,15 +557,15 @@ a.search-form-trigger::before {
     z-index: 3;
     opacity: 0;
     visibility: hidden;
-    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-    transition: opacity .3s 0s, visibility 0s .3s;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
 }
 
 .search-form.is-visible {
     opacity: 1;
     visibility: visible;
-    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-    transition: opacity .3s 0s, visibility 0s 0s;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s;
 }
 
 .search-form form {
@@ -662,7 +656,6 @@ a.search-form-trigger::before {
     visibility: visible;
 }
 
-
 /*----------------------------
     3. ABOUT AREA
 ------------------------------*/
@@ -727,7 +720,6 @@ a.search-form-trigger::before {
     padding-bottom: 1%;
 }
 
-
 .about-area .area-title h2 span {
     color: #212324;
     font-family: lato;
@@ -743,9 +735,8 @@ a.search-form-trigger::before {
     color: #4a4d4f;
 }
 .about-content-twoCol {
-    
 }
-.about-content p, 
+.about-content p,
 .right-about-content p {
     padding-top: 2%;
     padding-bottom: 8%;
@@ -769,7 +760,6 @@ a.read-more {
     color: #fff;
     border-color: #ca3d26;
 }
-
 
 /*-----------------------------
     4. PROMOTIONS AREA
@@ -844,7 +834,7 @@ a.read-more {
     margin: auto;
 }
 
-.menu-discount-offer .owl-dots>div {
+.menu-discount-offer .owl-dots > div {
     background: #bcbfc1 none repeat scroll 0 0;
     border-radius: 50%;
     display: inline-block;
@@ -858,10 +848,9 @@ a.read-more {
     text-align: center;
 }
 
-.menu-discount-offer .owl-dots>div.active {
+.menu-discount-offer .owl-dots > div.active {
     background: #1a1a1a none repeat scroll 0 0;
 }
-
 
 /*-----------------------------
     5. MENUS AREA
@@ -909,7 +898,7 @@ a.read-more {
 }
 
 .single-menu .single-menu-details {
-    border-bottom: 1px solid #E4E4E4;
+    border-bottom: 1px solid #e4e4e4;
     margin-bottom: 4%;
     padding-bottom: 14%;
     padding-left: 28%;
@@ -940,7 +929,6 @@ a.read-more {
     position: relative;
 }
 
-
 .food-menu-details {
     color: #1e1e1f;
     padding: 0;
@@ -970,7 +958,6 @@ a.read-more {
 .mix {
     display: none;
 }
-
 
 /*-------------------------------
     6. RESERVATION BUTTON AREA
@@ -1080,7 +1067,6 @@ option {
     border-radius: 0;
 }
 
-
 /*-----------------------------
     7. TEAM AREA
 -------------------------------*/
@@ -1166,25 +1152,24 @@ option {
     transform: scale(1);
 }
 
-.member-details>h3 {
+.member-details > h3 {
     font-size: 20px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     letter-spacing: 1px;
 }
 
-.member-details>h3:hover {
+.member-details > h3:hover {
     color: #ca3d26;
 }
 
-.member-details>p {
+.member-details > p {
     margin-bottom: 0;
 }
 
 .team-area .owl-controls {
     display: none;
 }
-
 
 /*-----------------------------
     8. BLOG AREA
@@ -1215,7 +1200,7 @@ a.post-meta-button {
     text-transform: uppercase;
 }
 
-.post-details>h3 {
+.post-details > h3 {
     font-size: 26px;
     font-weight: 400;
     margin-bottom: 30px;
@@ -1223,7 +1208,7 @@ a.post-meta-button {
     position: relative;
 }
 
-.post-details>h3::after {
+.post-details > h3::after {
     background: #ca3d26 none repeat scroll 0 0;
     bottom: 0;
     content: "";
@@ -1259,8 +1244,8 @@ a.post-meta-button {
     width: 100%;
 }
 
-.blog-area .owl-nav>div,
-.menus-area .owl-nav>div {
+.blog-area .owl-nav > div,
+.menus-area .owl-nav > div {
     background: #ca3d26 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
@@ -1277,21 +1262,20 @@ a.post-meta-button {
     width: 40px;
 }
 
-.blog-area .owl-nav>div.owl-next,
-.menus-area .owl-nav>div.owl-next {
+.blog-area .owl-nav > div.owl-next,
+.menus-area .owl-nav > div.owl-next {
     right: 0;
 }
 
-.blog-area .owl-nav>div.owl-prev,
-.menus-area .owl-nav>div.owl-prev {
+.blog-area .owl-nav > div.owl-prev,
+.menus-area .owl-nav > div.owl-prev {
     left: 0;
 }
 
-.post-slider:hover .owl-nav>div ,
-.food-menu-list:hover .owl-nav>div {
+.post-slider:hover .owl-nav > div,
+.food-menu-list:hover .owl-nav > div {
     opacity: 1;
 }
-
 
 /*------------------------------
     9. GALLERY AREA
@@ -1305,7 +1289,6 @@ a.post-meta-button {
     display: inline-block;
     width: 20%;
 }
-
 
 /*------------------------------
     10. FOOTER AREA
@@ -1329,7 +1312,7 @@ a.post-meta-button {
 }
 
 .footer-top {
-    border-bottom: 1px solid #2B2C2D;
+    border-bottom: 1px solid #2b2c2d;
 }
 
 .footer-area a {
@@ -1401,7 +1384,6 @@ a.post-meta-button {
     margin-bottom: 0;
 }
 
-
 /*------------------------------
     11. SCROLL TO TOP
 -------------------------------*/
@@ -1426,7 +1408,6 @@ a.scrolltotop:hover {
     background: #1a1a1a;
     border: 1px solid;
 }
-
 
 /*===============================
     12. SINGLE PAGE
@@ -1501,7 +1482,6 @@ ul.page-location li.active a {
     color: #ca3d26;
 }
 
-
 /*===============================
     13. BLOG PAGE
 =================================*/
@@ -1566,7 +1546,7 @@ ul.page-location li.active a {
     margin-bottom: 0;
 }
 
-.blog-image-sldie .owl-nav>div {
+.blog-image-sldie .owl-nav > div {
     background: #fff none repeat scroll 0 0;
     color: #1a1a1a;
     display: inline-block;
@@ -1579,11 +1559,11 @@ ul.page-location li.active a {
     width: 40px;
 }
 
-.blog-image-sldie .owl-nav>div.owl-next {
+.blog-image-sldie .owl-nav > div.owl-next {
     right: -2px;
 }
 
-.blog-image-sldie .owl-nav>div.owl-prev {
+.blog-image-sldie .owl-nav > div.owl-prev {
     left: 0;
 }
 
@@ -1681,17 +1661,16 @@ ul.page-pagination li a {
     width: 70px;
 }
 
-
 /*------------------------------
     13.1 SIDEBAR AREA
 -------------------------------*/
 
-.single-sidebar-widget>form {
+.single-sidebar-widget > form {
     height: 45px;
     position: relative;
 }
 
-.single-sidebar-widget>form input {
+.single-sidebar-widget > form input {
     border: 2px solid;
     color: #1b1c1c;
     height: 100%;
@@ -1701,7 +1680,7 @@ ul.page-pagination li a {
     transition: 0.3s;
 }
 
-.single-sidebar-widget>form button {
+.single-sidebar-widget > form button {
     background: #1b1c1c none repeat scroll 0 0;
     border: 0 none;
     color: #fff;
@@ -1719,11 +1698,11 @@ ul.page-pagination li a {
     border-color: #ca3d26;
 }
 
-.single-sidebar-widget input:focus+button {
+.single-sidebar-widget input:focus + button {
     background: #ca3d26;
 }
 
-.single-sidebar-widget>form button:hover {
+.single-sidebar-widget > form button:hover {
     background: #1b1c1c none repeat scroll 0 0;
 }
 
@@ -1735,7 +1714,7 @@ ul.page-pagination li a {
     margin-bottom: 0;
 }
 
-.single-sidebar-widget>h4,
+.single-sidebar-widget > h4,
 .blog-comments h4,
 .comment-box h4 {
     color: #212222;
@@ -1747,7 +1726,7 @@ ul.page-pagination li a {
     text-transform: uppercase;
 }
 
-.single-sidebar-widget>h4::after,
+.single-sidebar-widget > h4::after,
 .blog-comments h4::after,
 .comment-box h4::after {
     background: #212222 none repeat scroll 0 0;
@@ -1827,15 +1806,15 @@ ul.page-pagination li a {
 }
 
 .social-widget ul li.s_twitter a {
-    background: #25AEEE none repeat scroll 0 0;
+    background: #25aeee none repeat scroll 0 0;
 }
 
 .social-widget ul li.s_youtube a {
-    background: #C32E2E none repeat scroll 0 0;
+    background: #c32e2e none repeat scroll 0 0;
 }
 
 .social-widget ul li.s_dribbble a {
-    background: #C93292 none repeat scroll 0 0;
+    background: #c93292 none repeat scroll 0 0;
 }
 
 .social-widget ul li a:hover {
@@ -1904,7 +1883,6 @@ ul.blog-instagram-feed-widget li {
     opacity: 0.5;
 }
 
-
 /*==============================
     14. SINGLE BLOG PAGE
 ================================*/
@@ -1922,7 +1900,7 @@ ul.blog-instagram-feed-widget li {
     margin-bottom: 50px;
 }
 
-.single-comments:nth-child(2n+1) {
+.single-comments:nth-child(2n + 1) {
     margin-left: 80px;
 }
 
@@ -1986,7 +1964,6 @@ ul.blog-instagram-feed-widget li {
     border-bottom: 1px solid #d1d1d1;
 }
 
-
 /*-----------------------------
     CLASSIC STYLE
 ------------------------------*/
@@ -2002,7 +1979,6 @@ ul.blog-instagram-feed-widget li {
 .style-classic .mainmenu-area::after {
     display: none;
 }
-
 
 /*----------------------------------
     WELCOME TEXT AREA
@@ -2070,24 +2046,20 @@ ul.blog-instagram-feed-widget li {
 }
 
 .welcome-text h1 span.hero-text {
-    font-weight: 500!important;
+    font-weight: 500 !important;
 }
 
 .outline {
     color: white; /* Unfortunately you can't use transparent here … */
-    text-shadow:
-       -1px -1px 0 #000,  
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* Real outline for modern browsers */
-@supports((text-stroke: 2px black) or (-webkit-text-stroke: 2px black)) {
+@supports((text-stroke: 2px #000) or (-webkit-text-stroke: 2px #000)) {
     .outline {
         color: transparent;
-        -webkit-text-stroke: 2px black;
-        text-stroke: 2px black;
+        -webkit-text-stroke: 2px #000;
+        text-stroke: 2px #000;
         text-shadow: none;
     }
 }
@@ -2107,7 +2079,7 @@ ul.blog-instagram-feed-widget li {
 }
 
 .Background::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -2123,7 +2095,7 @@ ul.blog-instagram-feed-widget li {
     VIDEO BG
 ---------------------------------*/
 .top-area-bg.video-bg {
-  background: transparent;
+    background: transparent;
 }
 /*----------------------------------
     HOME ALT
@@ -2143,30 +2115,30 @@ ul.blog-instagram-feed-widget li {
     text-align: center;
 }
 .food-menu-img-two .menu-price {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0) url("img/icons/tag.png") no-repeat scroll center center / cover ;
-  border-radius: 5px;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: "PT Sans Narrow",sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  height: 100px;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  left: 50%;
-  padding: 10px 20px;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  width: 100px;
-  z-index: 9;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0) url("img/icons/tag.png") no-repeat scroll center center / cover;
+    border-radius: 5px;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    height: 100px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 50%;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 100px;
+    z-index: 9;
 }
 
 .food-menu-img-two::after {
@@ -2210,7 +2182,6 @@ ul.blog-instagram-feed-widget li {
     opacity: 1;
 }
 
-
 .home-alt .promotions-img {
     position: relative;
 }
@@ -2231,12 +2202,12 @@ ul.blog-instagram-feed-widget li {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0) url("img/icons/tag.png") no-repeat scroll center center / cover ;
+    background: rgba(0, 0, 0, 0) url("img/icons/tag.png") no-repeat scroll center center / cover;
     color: #ffffff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-family: "PT Sans Narrow",sans-serif;
+    font-family: "PT Sans Narrow", sans-serif;
     font-size: 22px;
     font-weight: 700;
     height: 100px;
@@ -2255,29 +2226,64 @@ ul.blog-instagram-feed-widget li {
 /*==================================
         END OF MAIN STYLESHEET
 ====================================*/
+
+
 .carousel-cont {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      margin: auto;
-      padding-top: 5%;
-      padding-bottom: 5%;
-    }
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
 .custom-carousel {
-      display: none;
-     /* position: absolute;*/
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      transition: opacity 1.5s ease-in-out;
-    }
-
-    .custom-carousel.active {
-      display: block;
-      opacity: 1;
-    }
-.insta-gal .owl-controls, 
-.insta-gal .owl-controls {
-    display: none!important;
+    display: none;
+    /* position: absolute;*/
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
 }
+
+.custom-carousel.active {
+    display: block;
+    opacity: 1;
+}
+
+.insta-gal .owl-controls,
+.insta-gal .owl-controls {
+    display: none !important;
+}
+
+.content-en {
+    display: none;
+}
+
+.btn-cust {
+    color: #fff;
+    background-color: #ca3d26;
+    outline: 0;
+    transition: background-color 0.3s ease;
+    font-size: 13px;
+    text-transform: uppercase;;
+    border: 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+    font-weight: 800!important;
+    display: inline-flex;
+
+}
+
+.btn-cust:hover {
+    filter: brightness(90%);
+}
+
+.btn-cust:active {
+    filter: brightness(85%);
+}
+/*.navbar-brand {
+    padding: 0 15px;
+}*/

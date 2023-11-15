@@ -17,7 +17,6 @@
 
         <!--====== TITLE TAG ======-->
         <title>Home Dawat Restaurant</title>
-
         <!--====== FAVICON ICON =======-->
         <link rel="shortcut icon" type="image/ico" href="img/favicon.png" />
 
@@ -80,7 +79,7 @@
                                     <p><i class="fa fa-phone"></i>Telephone Morristown: <a href="callto:+19735385230">+973-538-5230</a></p>
                                 </div>
                             </div>
-                            <div class="col-md-5 col-lg-3 col-sm-3">
+                            <div class="col-md-5 col-lg-3 col-sm-3 top-social-cust">
                                 <!-- <div class="book-table-popup">
                                 <a href="#reservation-form-modal" data-toggle="modal">Book a table</a>
                             </div> -->
@@ -111,8 +110,8 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a href="#home" class="navbar-brand"><img src="img/main_logo_black.png" style="padding-top:1.5%; width:300px" alt="logo" /></a>
-                                <a href="#home" class="navbar-brand white"><img src="img/main_logo.png" style="padding-top:1.5%; width:300px" alt="logo" /></a>
+                                <a href="#home" class="navbar-brand"><img src="img/main_logo_black.png" alt="logo" /></a>
+                                <a href="#home" class="navbar-brand white"><img src="img/main_logo.png" alt="logo" /></a>
                             </div>
                             <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
                                 <div class="search-form-area">
@@ -131,6 +130,7 @@
                                     <li><a href="#menu">Menu</a></li>
                                     <li><a href="#gallery">Gallery</a></li>
                                     <li><a href="#contact">Contact</a></li>
+                                    <li><a class="btn" href="#home" onclick="toggleLanguage()">ESPAÑOL</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -163,37 +163,71 @@
             <!--WELCOME TEXT AREA END-->
         </header>
         <!--END TOP AREA-->
-
-        <!--ABOUT AREA-->
+        <!--START ABOUT AREA-->
         <section class="about-area section-padding" id="about">
             <div class="container wow fadeIn">
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                        <div class="area-title text-center">
-                            <h2>Nuestra Historia</h2>
+                <!-- START OF ABOUT US SPANISH CONTENT -->
+                <div class="content-es">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                            <div class="area-title text-center">
+                                <h2>Nuestra Historia</h2>
+                            </div>
                         </div>
-                    </div>
-                    <div class="text-center"><h3>PU-entes - CA-sallas - L-opez - OR-ego = PUCALOR</h3></div>
-                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                        <div class="about-content">
-                            <p>
-                                <span class="big-text">En</span> 1996, el Sr. Puentes tuvo una visión: presentar al mundo el exquisito sabor del pollo asado al estilo colombiano. Con ese sueño inauguró Pollos Pucalor. Desde el principio, la
-                                esencia de nuestra marca ha estado arraigada en la autenticidad, la pasión y las ricas tradiciones culinarias de Colombia. Nuestro lema, "Servir al cliente", refleja nuestro compromiso inquebrantable de poner
-                                a nuestros clientes en primer lugar. En Pollos Pucalor creemos que el núcleo de cualquier negocio exitoso radica en la felicidad y satisfacción de sus clientes. Cada vez que ingresa por nuestras puertas,
-                                puede esperar una calidad de primer nivel, un servicio impecable y precios que ofrecen un gran valor.
-                            </p>
+                        <div class="text-center"><h3>PU-entes - CA-sallas - L-opez - OR-ego = PUCALOR</h3></div>
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                            <div class="about-content">
+                                <p>
+                                    <span class="big-text">En</span> 1996, el Sr. Puentes tuvo una visión: presentar al mundo el exquisito sabor del pollo asado al estilo colombiano. Con ese sueño inauguró Pollos Pucalor. Desde el
+                                    principio, la esencia de nuestra marca ha estado arraigada en la autenticidad, la pasión y las ricas tradiciones culinarias de Colombia. Nuestro lema, "Servir al cliente", refleja nuestro compromiso
+                                    inquebrantable de poner a nuestros clientes en primer lugar. En Pollos Pucalor creemos que el núcleo de cualquier negocio exitoso radica en la felicidad y satisfacción de sus clientes. Cada vez que
+                                    ingresa por nuestras puertas, puede esperar una calidad de primer nivel, un servicio impecable y precios que ofrecen un gran valor.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                        <div class="right-about-content">
-                            <p>
-                                A lo largo de los años, nuestra dedicación a la excelencia se ha mantenido firme. Cada pollo se prepara meticulosamente utilizando la preciada receta del Sr. Puentes, lo que garantiza que cada bocado lo lleve
-                                en un viaje al corazón de Colombia. Para nosotros es más que sólo comida; se trata de compartir contigo una parte de nuestra cultura, nuestro amor y nuestro legado. Únase a nosotros en Pollos Pucalor y sea
-                                parte de nuestra historia continua, donde los sabores trascienden las fronteras y cada comida es una celebración de la herencia colombiana.
-                            </p>
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                            <div class="right-about-content">
+                                <p>
+                                    A lo largo de los años, nuestra dedicación a la excelencia se ha mantenido firme. Cada pollo se prepara meticulosamente utilizando la preciada receta del Sr. Puentes, lo que garantiza que cada bocado lo
+                                    lleve en un viaje al corazón de Colombia. Para nosotros es más que sólo comida; se trata de compartir contigo una parte de nuestra cultura, nuestro amor y nuestro legado. Únase a nosotros en Pollos
+                                    Pucalor y sea parte de nuestra historia continua, donde los sabores trascienden las fronteras y cada comida es una celebración de la herencia colombiana.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- END OF ABOUT US SPANISH CONTENT -->
+                <!-- START OF ABOUT US ENGLISH CONTENT -->
+                <div class="content-en">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                            <div class="area-title text-center">
+                                <h2>Our History</h2>
+                            </div>
+                        </div>
+                        <div class="text-center"><h3>PU-entes - CA-sallas - L-opez - OR-ego = PUCALOR</h3></div>
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                            <div class="about-content">
+                                <p>
+                                    <span class="big-text">In</span> 1996, Mr. Puentes had a vision: to introduce the world to the exquisite flavor of Colombian-style roast chicken. With that dream he opened Pollos Pucalor. From the
+                                    beginning, the The essence of our brand has been rooted in authenticity, passion and the rich culinary traditions of Colombia. Our motto, "Serve the Customer," reflects our unwavering commitment to
+                                    putting to our clients first. At Pollos Pucalor we believe that the core of any successful business lies in the happiness and satisfaction of its customers. Every time you walk through our doors, You can
+                                    expect top-notch quality, impeccable service and prices that offer great value.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                            <div class="right-about-content">
+                                <p>
+                                    Over the years, our dedication to excellence has remained steadfast. Each chicken is meticulously prepared using Mr. Puentes' prized recipe, ensuring every bite brings on a trip to the heart of Colombia.
+                                    For us it's more than just food; It's about sharing with you a part of our culture, our love and our legacy. Join us at Pollos Pucalor and be part of our continuing history, where flavors transcend
+                                    borders and each meal is a celebration of Colombian heritage.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF ABOUT US ENGLISH CONTENT -->
             </div>
         </section>
         <!--ABOUT AREA END-->
@@ -202,316 +236,320 @@
         <section class="promotions-area section-padding" id="featured">
             <div class="promotion-area-bg" data-stellar-background-ratio="0.6"></div>
             <div class="container wow fadeIn">
+                <!-- START OF FEATURED AREA SPANISH CONTENT -->
+                <div class="content-es">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                            <div class="area-title text-center">
+                                <h2>Destacados</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="menu-discount-offer col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                            <div class="single-promotions">
+                                <div class="promotions-img">
+                                    <img src="img/promotions/whole_chicken.jpeg" alt="" />
+                                </div>
+                                <div class="promotions-details">
+                                    <h3>POLLO ENTERO - $14.56</h3>
+                                    <p>Saboree la aromática infusión de hierbas y especias de nuestro Pollo asado a las hierbas. Crujiente por fuera, tierno por dentro, es un eterno favorito que nunca pasa de moda.</p>
+                                    <!-- <a href="#" class="read-more">Order now</a> -->
+                                </div>
+                            </div>
+                            <div class="single-promotions">
+                                <div class="promotions-img">
+                                    <img src="img/promotions/stewed_potatoes.jpeg" alt="" />
+                                </div>
+                                <div class="promotions-details">
+                                    <h3>PAPA GUISADA - $2.91</h3>
+                                    <p>Este sustancioso plato incluye tiernas patatas cocidas a fuego lento en un sabroso guiso, una deliciosa mezcla de texturas y sabores que te dejará con ganas de más.</p>
+                                    <!-- <a href="#" class="read-more">Order now</a> -->
+                                </div>
+                            </div>
+                            <div class="single-promotions">
+                                <div class="promotions-img">
+                                    <img src="img/promotions/chicharron.jpeg" alt="" />
+                                </div>
+                                <div class="promotions-details">
+                                    <h3>CHICHARRON $4.38</h3>
+                                    <p>
+                                        Nuestra carne de cerdo frita y dorada ofrece un delicioso crujido y una explosión de sabor en cada bocado. Perfecto como tentempié o aperitivo, el Chicharrón es un capricho crujiente al que es
+                                        imposible resistirse.
+                                    </p>
+                                    <!-- <a href="#" class="read-more">Order now</a> -->
+                                </div>
+                            </div>
+                            <div class="single-promotions">
+                                <div class="promotions-img">
+                                    <img src="img/promotions/maduros.jpeg" alt="" />
+                                </div>
+                                <div class="promotions-details">
+                                    <h3>MADUROS $3.88</h3>
+                                    <p>
+                                        Estos plátanos maduros se caramelizan a la perfección, ofreciendo una sinfonía de sabores indulgentes e inolvidables. Los maduros son una deliciosa guarnición o un delicioso capricho, un sabor a
+                                        paraíso tropical en cada bocado.
+                                    </p>
+                                    <!-- <a href="#" class="read-more">Order now</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF FEATURED AREA SPANISH CONTENT -->
+            </div>
+        </section>
+        <!--SPEACIAL PROMOTIONS AREA END-->
+
+        <!--MENUS AREA-->
+        <section class="menus-area section-padding" id="menu">
+            <div class="container wow fadeIn">
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                         <div class="area-title text-center">
-                            <h2>Destacados</h2>
+                            <h2>El Menú</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="menu-discount-offer col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                        <div class="single-promotions">
-                            <div class="promotions-img">
-                                <img src="img/promotions/whole_chicken.jpeg" alt="" />
-                            </div>
-                            <div class="promotions-details">
-                                <h3>POLLO ENTERO - $14.56</h3>
-                                <p>Saboree la aromática infusión de hierbas y especias de nuestro Pollo asado a las hierbas. Crujiente por fuera, tierno por dentro, es un eterno favorito que nunca pasa de moda.</p>
-                                <!-- <a href="#" class="read-more">Order now</a> -->
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                        <div class="food-menu-list-menu">
+                            <ul>
+                                <li class="filter active" data-filter="all">Ver Todos</li>
+                                <li class="filter" data-filter=".acompanamientos">Acompañamientos</li>
+                                <li class="filter" data-filter=".especialidades">Especialidades</li>
+                                <li class="filter" data-filter=".polloAsado">Pollo Asado</li>
+                                <li class="filter" data-filter=".bebidas">Bebidas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row food-menu-list">
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu especialidades">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/combo_pucalor.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>COMBO PUCALOR <span class="menu-price">$18.44</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                         <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                         <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
                             </div>
                         </div>
-                        <div class="single-promotions">
-                            <div class="promotions-img">
-                                <img src="img/promotions/stewed_potatoes.jpeg" alt="" />
-                            </div>
-                            <div class="promotions-details">
-                                <h3>PAPA GUISADA - $2.91</h3>
-                                <p>Este sustancioso plato incluye tiernas patatas cocidas a fuego lento en un sabroso guiso, una deliciosa mezcla de texturas y sabores que te dejará con ganas de más.</p>
-                                <!-- <a href="#" class="read-more">Order now</a> -->
-                            </div>
-                        </div>
-                        <div class="single-promotions">
-                            <div class="promotions-img">
-                                <img src="img/promotions/chicharron.jpeg" alt="" />
-                            </div>
-                            <div class="promotions-details">
-                                <h3>CHICHARRON $4.38</h3>
-                                <p>
-                                    Nuestra carne de cerdo frita y dorada ofrece un delicioso crujido y una explosión de sabor en cada bocado. Perfecto como tentempié o aperitivo, el Chicharrón es un capricho crujiente al que es imposible
-                                    resistirse.
-                                </p>
-                                <!-- <a href="#" class="read-more">Order now</a> -->
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu especialidades">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>BANDEJA TIPICA PUCALOR <span class="menu-price">$14.56</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                         <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                         <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
                             </div>
                         </div>
-                        <div class="single-promotions">
-                            <div class="promotions-img">
-                                <img src="img/promotions/maduros.jpeg" alt="" />
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu especialidades">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/especial_pucalor.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>ESPECIAL PUCALOR <span class="menu-price">$12.63</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                         <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                         <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
                             </div>
-                            <div class="promotions-details">
-                                <h3>MADUROS $3.88</h3>
-                                <p>
-                                    Estos plátanos maduros se caramelizan a la perfección, ofreciendo una sinfonía de sabores indulgentes e inolvidables. Los maduros son una deliciosa guarnición o un delicioso capricho, un sabor a paraíso
-                                    tropical en cada bocado.
-                                </p>
-                                <!-- <a href="#" class="read-more">Order now</a> -->
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu especialidades">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/consome_de_menudencias.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>CONSOME DE MENUDENCIAS <span class="menu-price">$4.38</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                         <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                         <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/maduros.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>MADUROS <span class="menu-price">$22.00</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/papas_fritas.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>PAPAS FRITAS <span class="menu-price">$3.88</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/tostones.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>TOSTONES <span class="menu-price">$2.91</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/arepas.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>AREPAS <span class="menu-price">$2.91</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/arroz.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>ARROZ <span class="menu-price">$3.88</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/frijoles.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>FRIJOLES <span class="menu-price">$3.88</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>PAPA RELLENA <span class="menu-price">$3.88</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/chicharron.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>CHICHARRON <span class="menu-price">$4.38</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>PAPA GUISADA <span class="menu-price">$2.91</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>ENSALADA <span class="menu-price">$3.88</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu polloAsado">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/pollo_entero.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>POLLO ENTERO <span class="menu-price">$14.56</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu polloAsado">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/medio_pollo.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>MEDIO POLLO <span class="menu-price">$7.76</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu polloAsado">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/cuarto_pollo.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>CUARTO POLLO <span class="menu-price">$3.88</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu bebidas">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>SODAS <span class="menu-price">$1.93</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu bebidas">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>JUGOS NATURALES <span class="menu-price">$3.88</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu bebidas">
+                        <div class="single-menu-details">
+                            <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt="" /></div>
+                            <div class="food-menu-details">
+                                <h3>COLOMBIANA <span class="menu-price">$2.43</span></h3>
+                                <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
+                          <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
+                          <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--SPEACIAL PROMOTIONS AREA END-->
-
-       <!--MENUS AREA-->
-              <section class="menus-area section-padding" id="menu">
-                  <div class="container wow fadeIn">
-                      <div class="row">
-                          <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                              <div class="area-title text-center">
-                                  <h2>El Menú</h2>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="row">
-                          <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                              <div class="food-menu-list-menu">
-                                  <ul>
-                                      <li class="filter active" data-filter="all">Ver Todos</li>
-                                      <li class="filter" data-filter=".acompanamientos">Acompañamientos</li>
-                                      <li class="filter" data-filter=".especialidades">Especialidades</li>
-                                      <li class="filter" data-filter=".polloAsado">Pollo Asado</li>
-                                      <li class="filter" data-filter=".bebidas">Bebidas</li>
-                                  </ul>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="row food-menu-list">
-                         <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu especialidades">
-                             <div class="single-menu-details">
-                                <div class="food-menu-img"><img src="img/menu/combo_pucalor.jpeg" alt=""></div>
-                                 <div class="food-menu-details">
-                                     <h3>COMBO PUCALOR <span class="menu-price">$18.44</span></h3>
-                                     <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                 <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                 <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                 </div>
-                             </div>
-                         </div>
-                         <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu especialidades">
-                             <div class="single-menu-details">
-                                 <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt="" /></div>
-                                 <div class="food-menu-details">
-                                     <h3>BANDEJA TIPICA PUCALOR <span class="menu-price">$14.56</span></h3>
-                                     <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                 <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                 <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                 </div>
-                             </div>
-                         </div>
-                         <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu especialidades">
-                             <div class="single-menu-details">
-                                <div class="food-menu-img"><img src="img/menu/especial_pucalor.jpeg" alt=""></div>
-                                 <div class="food-menu-details">
-                                     <h3>ESPECIAL PUCALOR <span class="menu-price">$12.63</span></h3>
-                                     <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                 <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                 <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                 </div>
-                             </div>
-                         </div>
-                         <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu especialidades">
-                             <div class="single-menu-details">
-                                <div class="food-menu-img"><img src="img/menu/consome_de_menudencias.jpeg" alt=""></div>
-                                 <div class="food-menu-details">
-                                     <h3>CONSOME DE MENUDENCIAS <span class="menu-price">$4.38</span></h3>
-                                     <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                 <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                 <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                 </div>
-                             </div>
-                         </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
-                              <div class="single-menu-details">
-                                  <div class="food-menu-img"><img src="img/menu/maduros.jpeg" alt="" /></div>
-                                  <div class="food-menu-details">
-                                      <h3>MADUROS <span class="menu-price">$22.00</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
-                              <div class="single-menu-details">
-                                <div class="food-menu-img"><img src="img/menu/papas_fritas.jpeg" alt=""></div>
-                                  <div class="food-menu-details">
-                                      <h3>PAPAS FRITAS <span class="menu-price">$3.88</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
-                              <div class="single-menu-details">
-                                  <div class="food-menu-img"><img src="img/menu/tostones.jpeg" alt="" /></div>
-                                  <div class="food-menu-details">
-                                      <h3>TOSTONES <span class="menu-price">$2.91</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
-                              <div class="single-menu-details">
-                                  <div class="food-menu-img"><img src="img/menu/arepas.jpeg" alt="" /></div>
-                                  <div class="food-menu-details">
-                                      <h3>AREPAS <span class="menu-price">$2.91</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
-                              <div class="single-menu-details">
-                                  <div class="food-menu-img"><img src="img/menu/arroz.jpeg" alt="" /></div>
-                                  <div class="food-menu-details">
-                                      <h3>ARROZ <span class="menu-price">$3.88</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
-                              <div class="single-menu-details">
-                                  <div class="food-menu-img"><img src="img/menu/frijoles.jpeg" alt="" /></div>
-                                  <div class="food-menu-details">
-                                      <h3>FRIJOLES <span class="menu-price">$3.88</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
-                              <div class="single-menu-details">
-                                  <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt="" /></div>
-                                  <div class="food-menu-details">
-                                      <h3>PAPA RELLENA <span class="menu-price">$3.88</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
-                              <div class="single-menu-details">
-                                <div class="food-menu-img"><img src="img/menu/chicharron.jpeg" alt=""></div>
-                                  <div class="food-menu-details">
-                                      <h3>CHICHARRON <span class="menu-price">$4.38</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
-                              <div class="single-menu-details">
-                                <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt=""></div>
-                                  <div class="food-menu-details">
-                                      <h3>PAPA GUISADA <span class="menu-price">$2.91</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu acompanamientos">
-                              <div class="single-menu-details">
-                                <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt=""></div>
-                                  <div class="food-menu-details">
-                                      <h3>ENSALADA <span class="menu-price">$3.88</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu polloAsado">
-                              <div class="single-menu-details">
-                                <div class="food-menu-img"><img src="img/menu/pollo_entero.jpeg" alt=""></div>
-                                  <div class="food-menu-details">
-                                      <h3>POLLO ENTERO <span class="menu-price">$14.56</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu polloAsado">
-                              <div class="single-menu-details">
-                                <div class="food-menu-img"><img src="img/menu/medio_pollo.jpeg" alt=""></div>
-                                  <div class="food-menu-details">
-                                      <h3>MEDIO POLLO <span class="menu-price">$7.76</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu polloAsado">
-                              <div class="single-menu-details">
-                                <div class="food-menu-img"><img src="img/menu/cuarto_pollo.jpeg" alt=""></div>
-                                  <div class="food-menu-details">
-                                      <h3>CUARTO POLLO <span class="menu-price">$3.88</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu bebidas">
-                              <div class="single-menu-details">
-                                  <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt="" /></div>
-                                  <div class="food-menu-details">
-                                      <h3>SODAS <span class="menu-price">$1.93</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu bebidas">
-                              <div class="single-menu-details">
-                                  <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt="" /></div>
-                                  <div class="food-menu-details">
-                                      <h3>JUGOS NATURALES <span class="menu-price">$3.88</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="mix col-md-6 col-lg-6 col-sm-12 col-xs-12 single-menu bebidas">
-                              <div class="single-menu-details">
-                                  <div class="food-menu-img"><img src="img/menu/whole_chicken.jpeg" alt="" /></div>
-                                  <div class="food-menu-details">
-                                      <h3>COLOMBIANA <span class="menu-price">$2.43</span></h3>
-                                      <!-- <p class="menu-speacification"><span>- Juice Fruit</span> <span>- Checken</span> <span>- Cherry</span></p>
-                                  <p class="menu-speacification"><span>- Vegetable</span> <span>- Milk</span> <span>- Potato</span></p>
-                                  <p class="menu-speacification"><span>- Tomato</span> <span>- Chilli</span> <span>- Sesame</span></p> -->
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </section>
-              <!--MENUS AREA END-->
+        <!--MENUS AREA END-->
         <!--BLOG AREA-->
         <section class="blog-area section-padding" id="gallery">
             <div class="blog-area-bg" data-stellar-background-ratio="0.6"></div>
@@ -567,7 +605,7 @@
                         </div>
                     </div>
                 </div>
-                
+            </div>
         </section>
         <!--BLOG AREA END-->
 
@@ -577,236 +615,50 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                         <div class="area-title text-center">
-                                <div class="row post-slider">
-                                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                                        <div class="single-post text-center">
-                                            <div class="blog-post-img">
-                                                <img src="img/blog/blog-3.jpg" alt="" />
-                                            </div>
-                                            <!-- <div class="post-details">
-                                            <h3><a href="single-blog.html">Recieved first day first reservation</a></h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias itaque eaque deserunt atque laborum ex ad facilis praesentium placeat tenetur.</p>
-                                            <p class="post-meta"><a href="#">24 February, 2017</a> - <a href="#">5 Comments</a></p>
-                                        </div> -->
+                            <div class="row post-slider">
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                                    <div class="single-post text-center">
+                                        <div class="blog-post-img">
+                                            <img src="img/blog/blog-3.jpg" alt="" />
                                         </div>
+                                        <!-- <div class="post-details">
+                                    <h3><a href="single-blog.html">Recieved first day first reservation</a></h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias itaque eaque deserunt atque laborum ex ad facilis praesentium placeat tenetur.</p>
+                                    <p class="post-meta"><a href="#">24 February, 2017</a> - <a href="#">5 Comments</a></p>
+                                </div> -->
                                     </div>
-                                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                                        <div class="single-post text-center">
-                                            <div class="blog-post-img">
-                                                <img src="img/blog/blog-1.jpg" alt="" />
-                                            </div>
-                                            <!-- <div class="post-details">
-                                            <h3><a href="single-blog.html">Home to get your home delevery ?</a></h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias itaque eaque deserunt atque laborum ex ad facilis praesentium placeat tenetur.</p>
-                                            <p class="post-meta"><a href="#">24 February, 2017</a> - <a href="#">5 Comments</a></p>
-                                        </div> -->
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                                    <div class="single-post text-center">
+                                        <div class="blog-post-img">
+                                            <img src="img/blog/blog-1.jpg" alt="" />
                                         </div>
+                                        <!-- <div class="post-details">
+                                    <h3><a href="single-blog.html">Home to get your home delevery ?</a></h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias itaque eaque deserunt atque laborum ex ad facilis praesentium placeat tenetur.</p>
+                                    <p class="post-meta"><a href="#">24 February, 2017</a> - <a href="#">5 Comments</a></p>
+                                </div> -->
                                     </div>
-                                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                                        <div class="single-post text-center">
-                                            <div class="blog-post-img">
-                                                <img src="img/blog/blog-2.jpg" alt="" />
-                                            </div>
-                                            <!-- <div class="post-details">
-                                            <h3><a href="single-blog.html">Restaurant welcome day meetup</a></h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias itaque eaque deserunt atque laborum ex ad facilis praesentium placeat tenetur.</p>
-                                            <p class="post-meta"><a href="#">24 February, 2017</a> - <a href="#">5 Comments</a></p>
-                                        </div> -->
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                                    <div class="single-post text-center">
+                                        <div class="blog-post-img">
+                                            <img src="img/blog/blog-2.jpg" alt="" />
                                         </div>
+                                        <!-- <div class="post-details">
+                                    <h3><a href="single-blog.html">Restaurant welcome day meetup</a></h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias itaque eaque deserunt atque laborum ex ad facilis praesentium placeat tenetur.</p>
+                                    <p class="post-meta"><a href="#">24 February, 2017</a> - <a href="#">5 Comments</a></p>
+                                </div> -->
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
         </section>
-        <!--INSTAGRAM GALLERY FEED END-->
-        <!--RESERVATION BUTTON AREA-->
-       <!--  <section class="reservation-button-area section-padding" id="reservation-button">
-            <div class="reservation-button-area-bg" data-stellar-background-ratio="0.6"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                        <div class="resarvation-from-button text-center wow fadeIn">
-                            <h2>Book A table Now !</h2>
-                            <a href="#reservation-form-modal" class="reservation-button" data-toggle="modal">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12"> -->
-                        <!-- RESERVATION FORM MODAL -->
-                        <!-- <div class="modal fade" id="reservation-form-modal" tabindex="-1" role="dialog">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title">Table Booking Reservation Form</h4>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="reservation-form">
-                                            <form action="#" class="table-booking-form" id="reservation">
-                                                <div class="row">
-                                                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                                                        <label for="name"><i class="fa fa-user-o"></i></label>
-                                                        <input type="text" name="name" id="name" placeholder="Name..." />
-                                                    </div>
-                                                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                                                        <label for="email"><i class="fa fa-at"></i></label>
-                                                        <input type="email" name="email" id="email" placeholder="Email..." />
-                                                    </div>
-                                                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                                                        <label for="mobile"><i class="fa fa-phone"></i></label>
-                                                        <input type="text" name="mobile" id="mobile" placeholder="Mobile..." />
-                                                    </div>
-                                                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                                                        <label for="date"><i class="fa fa-calendar"></i></label>
-                                                        <input type="text" name="date" id="date" data-select="datepicker" placeholder="Date..." />
-                                                    </div>
-                                                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                                                        <label for="time"><i class="fa fa-clock-o"></i></label>
-                                                        <input type="text" id="time" placeholder="Time..." />
-                                                    </div>
-                                                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                                                        <label for="person"><i class="fa fa-user"></i></label>
-                                                        <select name="person" id="person">
-                                                            <option value="2">2 Person</option>
-                                                            <option value="3">3 Person</option>
-                                                            <option value="4">4 Person</option>
-                                                            <option value="5">5 Person</option>
-                                                            <option value="6">6 Person</option>
-                                                            <option value="7">7 Person</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-md-6 col-lg-6 col-sm-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-xs-12">
-                                                        <button type="submit">book a table</button>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- RESERVATION FORM MODAL -->
-                   <!--  </div>
-                </div>
-            </div>
-        </section> -->
-        <!--RESERVATION BUTTON AREA END-->
-
-        <!--TEAM AREA-->
-        <!-- <section class="team-area section-padding" id="team">
-        <div class="container wow fadeIn">
-            <div class="row">
-                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                    <div class="area-title text-center">
-                        <h2>Our chefs</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 team-slider">
-                    <div class="single-team-member text-center">
-                        <div class="team-member-img ">
-                            <img src="img/team/team-1.jpg" alt="">
-                            <div class="member-social-bookmark">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="member-details">
-                            <h3>Mark Angelila</h3>
-                            <p>Cras senunc massa quisque tempor dolor sit amet </p>
-                        </div>
-                    </div>
-                    <div class="single-team-member text-center">
-                        <div class="team-member-img ">
-                            <img src="img/team/team-2.jpg" alt="">
-                            <div class="member-social-bookmark">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="member-details">
-                            <h3>Angel Meskat</h3>
-                            <p>Cras senunc massa quisque tempor dolor sit amet </p>
-                        </div>
-                    </div>
-                    <div class="single-team-member text-center">
-                        <div class="team-member-img ">
-                            <img src="img/team/team-3.jpg" alt="">
-                            <div class="member-social-bookmark">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="member-details">
-                            <h3>Jon Doe</h3>
-                            <p>Cras senunc massa quisque tempor dolor sit amet </p>
-                        </div>
-                    </div>
-                    <div class="single-team-member text-center">
-                        <div class="team-member-img ">
-                            <img src="img/team/team-4.jpg" alt="">
-                            <div class="member-social-bookmark">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="member-details">
-                            <h3>Angel Di Maria</h3>
-                            <p>Cras senunc massa quisque tempor dolor sit amet </p>
-                        </div>
-                    </div>
-                    <div class="single-team-member text-center">
-                        <div class="team-member-img ">
-                            <img src="img/team/team-5.jpg" alt="">
-                            <div class="member-social-bookmark">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="member-details">
-                            <h3>Park Ji Sung</h3>
-                            <p>Cras senunc massa quisque tempor dolor sit amet </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-        <!--TEAM AREA END-->
-
-        
-        <!--FOOER AREA-->
+        <!--FOOTER AREA-->
         <div class="footer-area" id="contact">
             <div class="footer-area-bg" data-stellar-background-ratio="0.6"></div>
             <div class="container wow fadeIn">
@@ -814,48 +666,29 @@
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                         <div class="footer-top section-padding text-center">
                             <div class="footer-logo">
-                                <a href="#"><img src="img/main_logo.png" alt=""  /></a>
+                                <a href="#"><img src="img/main_logo.png" alt="" /></a>
                             </div>
                             <div class="footer-address-container">
-                            <div class="footer-address">
-                                <p style="font-weight: 600;">DOVER</p>
-                                <p>85 E. Blackwell St. Dover, NJ 07801</p>
-                                <p><a href="callto:+19734429272">+973-442-9272</a></p>
-                                <p style="font-weight: 600;">Horario</p>
-                                <p>Domingo a Jueves 11:30am - 9:00pm</p>
+                                <div class="footer-address">
+                                    <p style="font-weight: 600;">DOVER</p>
+                                    <p>85 E. Blackwell St. Dover, NJ 07801</p>
+                                    <p><a href="callto:+19734429272">+973-442-9272</a></p>
+                                    <p style="font-weight: 600;">Horario</p>
+                                    <p>Domingo a Jueves 11:30am - 9:00pm</p>
+                                </div>
+                                <div class="footer-address">
+                                    <p style="font-weight: 600;">MORRISTOWN</p>
+                                    <p>239 Martin Luther King Ave. Morristown, NJ 07960</p>
+                                    <p><a href="callto:+19735385230">+973-538-5230</a></p>
+                                    <p style="font-weight: 600;">Horario</p>
+                                    <p>Domingo a Jueves 11:30am - 9:00pm</p>
+                                </div>
                             </div>
-                            <div class="footer-address">
-                                <p style="font-weight: 600;">MORRISTOWN</p>
-                                <p>239 Martin Luther King Ave. Morristown, NJ 07960</p>
-                                <p><a href="callto:+19735385230">+973-538-5230</a></p>
-                                <p style="font-weight: 600;">Horario</p>
-                                <p>Domingo a Jueves 11:30am - 9:00pm</p>
-                            </div>
-
-                        </div>
                             <div class="footer-social-bookmark">
                                 <ul>
                                     <!-- <li>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-flickr"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-skype"></i></a>
-                                    </li> -->
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                           </li> -->
                                 </ul>
                             </div>
                         </div>
@@ -865,7 +698,6 @@
                     <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                         <div class="footer-menu">
                             <ul>
-                                
                                 <li><a href="#">Privicy Policy</a></li>
                                 <li><a href="#">SiteMap</a></li>
                                 <li><a href="#">Contact</a></li>
@@ -880,17 +712,25 @@
                 </div>
             </div>
         </div>
-        <!--FOOER AREA END-->
+        <!--FOOTER AREA END-->
 
         <!--====== SCRIPTS JS ======-->
         <script>
-            new Splide(".splide").mount();
-        </script>
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                var splide = new Splide(".splide");
-                splide.mount();
-            });
+            function toggleLanguage() {
+                const contentEs = document.querySelector(".content-es");
+                const contentEn = document.querySelector(".content-en");
+                const toggleButton = document.querySelector(".btn");
+
+                if (contentEs.style.display !== "none") {
+                    contentEs.style.display = "none";
+                    contentEn.style.display = "block";
+                    toggleButton.innerHTML = "ENGLISH";
+                } else {
+                    contentEs.style.display = "block";
+                    contentEn.style.display = "none";
+                    toggleButton.innerHTML = "ESPAÑOL";
+                }
+            }
         </script>
 
         <script>

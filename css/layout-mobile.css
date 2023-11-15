@@ -7,13 +7,13 @@
         font-size: 3.588vw;
     }
     .header-top-area .container {
-        padding: 1% 0;
+        padding: 1% 2%;
     }
     .navbar .container {
         padding: 2.5% 4%;
     }
-    .headerInfo-contact-social-containter {
-        display: flex;
+    .top-social-cust {
+        display: flex !important;
         flex-wrap: nowrap;
         justify-content: center;
         flex-direction: row;
@@ -28,8 +28,8 @@
     .section-padding {
         padding: 5.05% 4%;
     }
-    .area-title h2, 
-    .about-area .area-title h2, 
+    .area-title h2,
+    .about-area .area-title h2,
     .resarvation-from-button.text-center h2 {
         font-size: 11.25vw;
         margin: 4% 0% 2% 0%;
@@ -116,8 +116,8 @@
     ul#nav li a {
         color: #fff;
     }
-    ul#nav li.active>a,
-    ul#nav li:hover>a {
+    ul#nav li.active > a,
+    ul#nav li:hover > a {
         color: #ca3d26;
     }
     ul#nav li.active a::before {
@@ -161,10 +161,12 @@
     .slider-area h3 {
         letter-spacing: 2px;
     }
-    .slider-area h1,.welcome-text h1{
+    .slider-area h1,
+    .welcome-text h1 {
         font-size: 10vw;
     }
-    .slider-area h2, .welcome-text h2 {
+    .slider-area h2,
+    .welcome-text h2 {
         font-size: 12vw;
     }
     .about-area .area-title h2 span {
@@ -178,7 +180,7 @@
         width: 100%;
         margin-bottom: 30px;
     }
-    .about-area .row .row>div:last-child .about-img img {
+    .about-area .row .row > div:last-child .about-img img {
         margin-bottom: 0;
     }
     .area-title {
@@ -254,7 +256,7 @@
     .promotions-details h3 {
         font-size: 6.25vw;
     }
-    .promotions-area .row>div:last-child .single-promotions .read-more {
+    .promotions-area .row > div:last-child .single-promotions .read-more {
         margin-bottom: 0;
     }
     .blog-post-img img {
@@ -263,7 +265,7 @@
     a.post-meta-button {
         margin-bottom: 15px;
     }
-    .post-details>h3 {
+    .post-details > h3 {
         font-size: 6.25vw;
         margin-bottom: 10px;
         padding-bottom: 15px;
@@ -271,7 +273,7 @@
     .single-post {
         margin-bottom: 30px;
     }
-    .blog-area .row>div:last-child .single-post {
+    .blog-area .row > div:last-child .single-post {
         margin-bottom: 0;
     }
     .footer-menu {
@@ -324,14 +326,19 @@
     .single-post-pagination .page-pagination {
         margin-bottom: 40px;
     }
-    .single-comments:nth-child(2n+1) {
+    .single-comments:nth-child(2n + 1) {
         margin-left: 0;
     }
     .page-pagination.margin-top {
         margin-top: 40px;
     }
     .package-price {
-  left: 0;
-  top: 0;
-}
+        left: 0;
+        top: 0;
+    }
+    .headerInfo-contact-social-row {
+        display: flex;
+        padding-top: 0.8%;
+        padding-bottom: 0.8%;
+    }
 }
