@@ -86,7 +86,7 @@ body {
 body {
     color: #555555;
     font-family: "Lato", sans-serif;
-    font-size: 0.85vw;
+    font-size: 1.05vw;
     font-weight: 400;
     letter-spacing: 0.3px;
     line-height: 1.7em;
@@ -310,7 +310,7 @@ ul#nav {
 ul#nav li a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     color: #ffffff;
-    font-size: 13px;
+    font-size: 1vw;
     font-weight: 700;
     letter-spacing: 2px;
     padding: 40px 15px;

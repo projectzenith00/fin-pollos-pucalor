@@ -116,7 +116,7 @@
                             <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
                                 <div class="search-form-area">
                                     <div class="search-form-overlay"></div>
-                                    <a class="search-form-trigger" href="#search-form">Search<span></span></a>
+                                    <a class="btn" href="#home" onclick="toggleLanguage()">ENGLISH</a>
                                     <div id="search-form" class="search-form">
                                         <form>
                                             <input type="search" placeholder="Search..." />
@@ -124,13 +124,34 @@
                                     </div>
                                 </div>
                                 <ul id="nav" class="nav navbar-nav">
+                                    
                                     <li class="active"><a href="#home">Home</a></li>
-                                    <li><a href="#about">Sobre Nosotros</a></li>
-                                    <li><a href="#featured">Destacados</a></li>
-                                    <li><a href="#menu">Menu</a></li>
-                                    <li><a href="#gallery">Gallery</a></li>
+                                    <li>
+                                        <a href="#about">
+                                            <span class="content-es">Sobre Nosotros</span>
+                                            <span class="content-en">About Us</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#about">
+                                            <span class="content-es">Destacados</span>
+                                            <span class="content-en">Featured</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#about">
+                                            Menu
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#about">
+                                            <span class="content-es">Galleria</span>
+                                            <span class="content-en">Gallery</span>
+                                        </a>
+                                    </li>
                                     <li><a href="#contact">Contact</a></li>
-                                    <li><a class="btn" href="#home" onclick="toggleLanguage()">ESPAÑOL</a></li>
+
+                                    <li></li>
                                 </ul>
                             </div>
                         </div>
@@ -144,10 +165,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                            <div class="welcome-text">
-                                <h2>Bienvenidos a Pollos Pucalor</h2>
+                            
+                            <div class="welcome-text" >
+                                <span class="content-es"><h2>Bienvenidos a Pollos Pucalor</h2></span>
+                                <span class="content-en"><h2>Welcome to Pollos Pucalor</h2></span>
                                 <h1 class="cd-headline clip is-full-width">
-                                    <span class="hero-text">La Casa Del</span>
+                                    <span class="content-es"><span class="hero-text">La Casa Del</span></span>
+                                    <span class="content-en"><span class="hero-text">The House of</span></span>
                                     <span class="cd-words-wrapper" style="font-weight: 800;">
                                         <b class="is-visible" style="font-weight: 800;">Pollo</b>
                                         <b style="font-weight: 800;">Toston</b>

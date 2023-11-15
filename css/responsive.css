@@ -107,4 +107,7 @@
     .is-sticky .navbar-header {
         max-width: 25%;
     }
+    .about-area .content-es .row, .about-area .content-en .row {
+        padding-bottom: 7%;
+    }
 }
