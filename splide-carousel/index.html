@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!-- Link to the file hosted on your server, -->
+    <link rel="stylesheet" href="splide/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css">
+
+
+
+    <!-- or link to the CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="splide/dist/js/splide.min.js"></script>
+    <style type="text/css">
+        .carouseIMG {
+            width: 20%;
+            height: auto;
+            margin: auto;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <section class="splide carouseIMG" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide" data-splide-interval="1000"><img src="images/aneirin_tn.svg" alt="aneirin"></li>
+                <li class="splide__slide" data-splide-interval="1000"><img src="images/celestia-dristi_tn.svg" alt="dristi"></li>
+                <li class="splide__slide" data-splide-interval="1000"><img src="images/charmaine_tn.svg" alt="charmaine"></li>
+                <li class="splide__slide" data-splide-interval="1000"><img src="images/emmyloo-em_tn.svg" alt="em"></li>
+                <li class="splide__slide" data-splide-interval="1000"><img src="images/gill_tn.svg" alt="gill"></li>
+                <li class="splide__slide" data-splide-interval="1000"><img src="images/laverne_tn.svg" alt="laverne"></li>
+            </ul>
+      </div>
+    </section>
+
+
+<script>
+  new Splide( '.splide', {
+        type   : 'loop',
+        focus  : 'center',
+        perPage: 3,
+        start  : 3,
+        autoplay: true,
+        interval: 1000,
+        drag   : 'free',
+        focus  : 'center',
+        fixedWidth : '10rem',
+        fixedHeight: '6rem',
+        gap        : '1rem',
+        padding: '20%',
+    } ).mount();
+</script>
+
+<!-- <script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    var splide = new Splide( '.splide', {
+        type   : 'loop',
+        focus  : 'center',
+        perPage: 3,
+        start  : 3,
+        autoplay: true,
+        interval: 1000,
+        drag   : 'free',
+        focus  : 'center',
+        fixedWidth : '10rem',
+        fixedHeight: '6rem',
+        gap        : '1rem',
+        padding: '20%',
+    } );
+</script> -->
+<!-- 
+<script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    var splide = new Splide('.splide', {
+      type: 'loop', //slide, loop, fade
+      // padding: { y: 10 }, //css values
+      gap: '20px', //1 rem default
+      // rewind: true,
+      speed: 500, //transition in milliseconds
+      // fixedWidth: '10vw',
+      // width: '100vw',
+      perPage: 5,
+      start: 3,
+      perMove: 2,
+      autoplay: true,
+      interval: 4,
+      arrows: false,
+      pagination: false,
+      pauseOnHover: true,
+      wheel: true,
+    });
+    
+</script> -->
+
+</body>
+</html>
