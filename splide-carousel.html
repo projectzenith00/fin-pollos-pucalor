@@ -36,6 +36,13 @@
         <link href="css/layout-tablet.css" rel="stylesheet" />
         <link href="css/layout-mobile.css" rel="stylesheet" />
         <link href="css/layout-wide-mobile.css" rel="stylesheet" />
+ 
+        <!--====== SPLIDE REFERENCE FILES ======-->
+        <link rel="stylesheet" href="splide-carousel/splide/dist/css/splide.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js"></script>
+        <script src="splide-carousel/splide/dist/js/splide.min.js"></script>
+
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <!--[if lt IE 9]>
             <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -857,7 +864,7 @@
         <!--BLOG AREA-->
         <section class="blog-area section-padding" id="gallery">
             <div class="blog-area-bg" data-stellar-background-ratio="0.6"></div>
-            <div class="container wow fadeIn">
+            <div class="container wow">
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                         <div class="area-title text-center">
@@ -868,23 +875,21 @@
                 </div>
                 <div class="row">
                     <div class="carousel-cont col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                        <div class="custom-carousel active">
+                        <div class="">
                             <div class="text-center">
                                 <div class="splide carouseIMG" aria-label="Splide Basic HTML Example">
                                   <div class="splide__track">
                                         <ul class="splide__list">
-                                            <li class="splide__slide" data-splide-interval="1000"><img src="images/aneirin_tn.svg" alt="aneirin"></li>
-                                            <li class="splide__slide" data-splide-interval="1000"><img src="images/celestia-dristi_tn.svg" alt="dristi"></li>
-                                            <li class="splide__slide" data-splide-interval="1000"><img src="images/charmaine_tn.svg" alt="charmaine"></li>
-                                            <li class="splide__slide" data-splide-interval="1000"><img src="images/emmyloo-em_tn.svg" alt="em"></li>
-                                            <li class="splide__slide" data-splide-interval="1000"><img src="images/gill_tn.svg" alt="gill"></li>
-                                            <li class="splide__slide" data-splide-interval="1000"><img src="images/laverne_tn.svg" alt="laverne"></li>
+                                            <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/chicharron.jpeg" alt="aneirin"></li>
+                                            <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/promotions_area_bg_1.jpeg" alt="dristi"></li>
+                                            <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/promotions_area_bg_2.jpeg" alt="charmaine"></li>
+                                            <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/promotions_area_bg_3.jpeg" alt="em"></li>
+                                            <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/whole_chicken.jpeg" alt="gill"></li>
                                         </ul>
                                   </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -1054,6 +1059,24 @@
 
         <!--FOOTER AREA END-->
         <!--====== SCRIPTS JS ======-->
+
+
+        <script>
+          new Splide( '.splide', {
+                updateOnMove: true,
+                type        : 'loop',
+                perMove     : 1,
+                focus       : 'center',
+                perPage     : 1,
+                start       : 3,
+                autoplay    : true,
+                setInterval : 1000,
+                drag        : 'free',
+                gap         : '5rem',
+                padding     : '20%',
+            } ).mount();
+        </script>
+
         <script>
             function toggleLanguage() {
                 const languageToggle = document.getElementById("languageToggle");
