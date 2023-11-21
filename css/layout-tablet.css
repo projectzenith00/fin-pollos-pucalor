@@ -20,10 +20,9 @@
 
     .top-social-cust {
         display: flex !important;
-        flex-wrap: nowrap;
-        justify-content: center;
         flex-direction: row;
         align-items: center;
+        justify-content: flex-end;
     }
     .big-text {
         font-size: 8.889vw;

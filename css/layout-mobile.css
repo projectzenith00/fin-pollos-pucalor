@@ -4,7 +4,10 @@
 
 @media only screen and (max-width: 767px) {
     body {
-        font-size: 3.588vw;
+        font-size: 4.4vw;
+    }
+    div.call-to-action p {
+        font-size: 2.9vw;
     }
     .header-top-area .container {
         padding: 1% 2%;
@@ -57,7 +60,7 @@
         border: 0 none;
     }
     .is-sticky ul#nav li a {
-        font-size: 2.8vw;
+        font-size: 4vw;
     }
     .navbar-brand {
         display: none;
@@ -103,7 +106,7 @@
         background: #212324 none repeat scroll 0 0;
     }
     ul#nav li a {
-        font-size: 3.2vw;
+        font-size: 4.2vw;
         padding: 10px;
     }
     .is-sticky ul#nav li a {
@@ -183,7 +186,7 @@
     }
     .slider-area h2,
     .welcome-text h2 {
-        font-size: 12vw;
+        font-size: 14vw;
     }
     .about-area .area-title h2 span {
         font-size: 12.5vw;
@@ -216,7 +219,7 @@
     }
     .food-menu-list-menu ul li {
         margin: 5px;
-        font-size: 3vw;
+        font-size: 4.2vw;
     }
     .food-menu-img img {
         width: 70px;
