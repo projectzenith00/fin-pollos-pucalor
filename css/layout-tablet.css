@@ -4,12 +4,16 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     body {
-        font-size: 1.667vw;
+        font-size: 1.9vw;
     }
 
     /* .header-top-area .container {
         padding: 1% 1.5%;
     }*/
+    .navbar .container {
+        display: block;
+        vertical-align: middle;
+    }
 
     .top-social-cust {
         display: flex !important;
@@ -90,6 +94,7 @@
     }
     ul#nav ul li a {
         padding-left: 30px !important;
+        font-size: 1.8vw;
     }
     .navbar-brand {
         display: none;
@@ -99,6 +104,9 @@
     }
     ul#nav li a {
         color: #fff;
+    }
+    .is-sticky ul#nav li a {
+        font-size: 1.6vw;
     }
     ul#nav li.active > a,
     ul#nav li:hover > a {
@@ -112,8 +120,9 @@
         background: #212324 none repeat scroll 0 0;
     }
     .navbar-brand {
-        margin-top: -15px;
-        padding: 8px;
+        margin-top: auto;
+        padding: unset;
+        margin-left: auto;
     }
     .is-sticky .navbar-brand {
         margin-top: -10px;
@@ -176,7 +185,7 @@
         padding-bottom: 3.5%;
     }
     .food-menu-list-menu ul li {
-        font-size: 1.4vw;
+        font-size: 1.6vw;
     }
     .food-menu-img img {
         width: 100px;
@@ -184,7 +193,6 @@
     }
     .food-menu-details h3 {
         font-size: 2.6vw;
-        padding-top: 8%;
     }
     .promotions-area .row > div:last-child .single-promotions .read-more {
         margin-bottom: 0;
@@ -236,9 +244,16 @@
     /*-----------------------------
             MENU SECTION
         ------------------------------*/
-    .single-menu .single-menu-details {
-        /*padding-bottom: 10%;*/
-    }
+   .single-menu .single-menu-details {
+       margin-bottom: 8%;
+       padding-bottom: 12%;
+       padding-top: 5%;
+       padding-left: 20%;
+       display: flex;
+       flex-direction: column;
+       align-content: space-between;
+       justify-content: center;
+   }
     .headerInfo-contact-social-row {
         display: flex;
         padding-top: 0.8%;
@@ -247,4 +262,10 @@
     /*   .navbar-header {
         width: 100%;
     }*/
+}
+
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+    margin-left: auto;
+    margin-top: auto;
 }

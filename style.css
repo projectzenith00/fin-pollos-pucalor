@@ -362,8 +362,9 @@ ul#nav li.active a {
 }
 
 .is-sticky ul#nav li a {
-    padding: 30px 20px;
+    padding: 30px 15px;
     color: #1a1a1a;
+    font-size: 0.9vw;
 }
 
 .is-sticky ul#nav li.active a,
@@ -385,7 +386,7 @@ ul#nav li.active a {
 }
 
 .is-sticky .navbar-header {
-   /* margin-top: -7px;*/
+    /* margin-top: -7px;*/
 }
 
 /*-----------------------------------
@@ -734,8 +735,9 @@ a.search-form-trigger::before {
 .about-content {
     color: #4a4d4f;
 }
-.about-content-twoCol {
-}
+
+.about-content-twoCol {}
+
 .about-content p,
 .right-about-content p {
     padding-top: 2%;
@@ -743,6 +745,7 @@ a.search-form-trigger::before {
     text-align: justify;
     justify-content: center;
 }
+
 a.read-more {
     border: 1px solid;
     color: #ca3d26;
@@ -834,7 +837,7 @@ a.read-more {
     margin: auto;
 }
 
-.menu-discount-offer .owl-dots > div {
+.menu-discount-offer .owl-dots>div {
     background: #bcbfc1 none repeat scroll 0 0;
     border-radius: 50%;
     display: inline-block;
@@ -848,7 +851,7 @@ a.read-more {
     text-align: center;
 }
 
-.menu-discount-offer .owl-dots > div.active {
+.menu-discount-offer .owl-dots>div.active {
     background: #1a1a1a none repeat scroll 0 0;
 }
 
@@ -883,7 +886,7 @@ a.read-more {
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 1px;
-    margin: 0 2px;
+    margin:5px;
     padding: 3px 10px;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
@@ -937,7 +940,7 @@ a.read-more {
 
 .food-menu-details h3 {
     font-size: 20px;
-    padding-top: 8%;
+    /*padding-top: 8%;*/
     margin-bottom: 0%;
 }
 
@@ -1152,18 +1155,18 @@ option {
     transform: scale(1);
 }
 
-.member-details > h3 {
+.member-details>h3 {
     font-size: 20px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     letter-spacing: 1px;
 }
 
-.member-details > h3:hover {
+.member-details>h3:hover {
     color: #ca3d26;
 }
 
-.member-details > p {
+.member-details>p {
     margin-bottom: 0;
 }
 
@@ -1200,7 +1203,7 @@ a.post-meta-button {
     text-transform: uppercase;
 }
 
-.post-details > h3 {
+.post-details>h3 {
     font-size: 26px;
     font-weight: 400;
     margin-bottom: 30px;
@@ -1208,7 +1211,7 @@ a.post-meta-button {
     position: relative;
 }
 
-.post-details > h3::after {
+.post-details>h3::after {
     background: #ca3d26 none repeat scroll 0 0;
     bottom: 0;
     content: "";
@@ -1244,8 +1247,8 @@ a.post-meta-button {
     width: 100%;
 }
 
-.blog-area .owl-nav > div,
-.menus-area .owl-nav > div {
+.blog-area .owl-nav>div,
+.menus-area .owl-nav>div {
     background: #ca3d26 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
@@ -1262,18 +1265,18 @@ a.post-meta-button {
     width: 40px;
 }
 
-.blog-area .owl-nav > div.owl-next,
-.menus-area .owl-nav > div.owl-next {
+.blog-area .owl-nav>div.owl-next,
+.menus-area .owl-nav>div.owl-next {
     right: 0;
 }
 
-.blog-area .owl-nav > div.owl-prev,
-.menus-area .owl-nav > div.owl-prev {
+.blog-area .owl-nav>div.owl-prev,
+.menus-area .owl-nav>div.owl-prev {
     left: 0;
 }
 
-.post-slider:hover .owl-nav > div,
-.food-menu-list:hover .owl-nav > div {
+.post-slider:hover .owl-nav>div,
+.food-menu-list:hover .owl-nav>div {
     opacity: 1;
 }
 
@@ -1327,9 +1330,11 @@ a.post-meta-button {
 .footer-address {
     margin-bottom: 50px;
 }
+
 .footer-address-container p {
     text-align: left;
 }
+
 .footer-address-container {
     display: flex;
     flex-wrap: wrap;
@@ -1337,6 +1342,7 @@ a.post-meta-button {
     align-content: center;
     align-items: center;
 }
+
 .footer-social-bookmark ul,
 .footer-menu ul {
     list-style: outside none none;
@@ -1546,7 +1552,7 @@ ul.page-location li.active a {
     margin-bottom: 0;
 }
 
-.blog-image-sldie .owl-nav > div {
+.blog-image-sldie .owl-nav>div {
     background: #fff none repeat scroll 0 0;
     color: #1a1a1a;
     display: inline-block;
@@ -1559,11 +1565,11 @@ ul.page-location li.active a {
     width: 40px;
 }
 
-.blog-image-sldie .owl-nav > div.owl-next {
+.blog-image-sldie .owl-nav>div.owl-next {
     right: -2px;
 }
 
-.blog-image-sldie .owl-nav > div.owl-prev {
+.blog-image-sldie .owl-nav>div.owl-prev {
     left: 0;
 }
 
@@ -1665,12 +1671,12 @@ ul.page-pagination li a {
     13.1 SIDEBAR AREA
 -------------------------------*/
 
-.single-sidebar-widget > form {
+.single-sidebar-widget>form {
     height: 45px;
     position: relative;
 }
 
-.single-sidebar-widget > form input {
+.single-sidebar-widget>form input {
     border: 2px solid;
     color: #1b1c1c;
     height: 100%;
@@ -1680,7 +1686,7 @@ ul.page-pagination li a {
     transition: 0.3s;
 }
 
-.single-sidebar-widget > form button {
+.single-sidebar-widget>form button {
     background: #1b1c1c none repeat scroll 0 0;
     border: 0 none;
     color: #fff;
@@ -1698,11 +1704,11 @@ ul.page-pagination li a {
     border-color: #ca3d26;
 }
 
-.single-sidebar-widget input:focus + button {
+.single-sidebar-widget input:focus+button {
     background: #ca3d26;
 }
 
-.single-sidebar-widget > form button:hover {
+.single-sidebar-widget>form button:hover {
     background: #1b1c1c none repeat scroll 0 0;
 }
 
@@ -1714,7 +1720,7 @@ ul.page-pagination li a {
     margin-bottom: 0;
 }
 
-.single-sidebar-widget > h4,
+.single-sidebar-widget>h4,
 .blog-comments h4,
 .comment-box h4 {
     color: #212222;
@@ -1726,7 +1732,7 @@ ul.page-pagination li a {
     text-transform: uppercase;
 }
 
-.single-sidebar-widget > h4::after,
+.single-sidebar-widget>h4::after,
 .blog-comments h4::after,
 .comment-box h4::after {
     background: #212222 none repeat scroll 0 0;
@@ -1900,7 +1906,7 @@ ul.blog-instagram-feed-widget li {
     margin-bottom: 50px;
 }
 
-.single-comments:nth-child(2n + 1) {
+.single-comments:nth-child(2n+1) {
     margin-left: 80px;
 }
 
@@ -2050,11 +2056,13 @@ ul.blog-instagram-feed-widget li {
 }
 
 .outline {
-    color: white; /* Unfortunately you can't use transparent here … */
+    color: white;
+    /* Unfortunately you can't use transparent here … */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* Real outline for modern browsers */
+
 @supports((text-stroke: 2px #000) or (-webkit-text-stroke: 2px #000)) {
     .outline {
         color: transparent;
@@ -2091,12 +2099,15 @@ ul.blog-instagram-feed-widget li {
 .cooking-effect .top-area-bg::before {
     z-index: 1;
 }
+
 /*--------------------------------
     VIDEO BG
 ---------------------------------*/
+
 .top-area-bg.video-bg {
     background: transparent;
 }
+
 /*----------------------------------
     HOME ALT
 -----------------------------------*/
@@ -2105,15 +2116,18 @@ ul.blog-instagram-feed-widget li {
     overflow: hidden;
     position: relative;
 }
+
 .food-menu-img-two {
     overflow: hidden;
     position: relative;
 }
+
 .food-menu-details-two {
     border: 1px solid #dddddd;
     padding: 30px;
     text-align: center;
 }
+
 .food-menu-img-two .menu-price {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -2154,6 +2168,7 @@ ul.blog-instagram-feed-widget li {
     width: 100%;
     z-index: 1;
 }
+
 .single-menu-two:hover .food-menu-img-two::after {
     opacity: 0.5;
     visibility: visible;
@@ -2163,6 +2178,7 @@ ul.blog-instagram-feed-widget li {
     border-radius: 50%;
     overflow: hidden;
 }
+
 .home-alt-two .member-social-bookmark {
     height: auto;
     left: 50%;
@@ -2173,10 +2189,12 @@ ul.blog-instagram-feed-widget li {
     transform: translateX(-50%) translateY(-50%);
     width: 100%;
 }
+
 .home-alt-two .member-social-bookmark li {
     display: inline-block;
     margin: 0 5px;
 }
+
 .home-alt-two .single-team-member:hover .member-social-bookmark {
     left: 0;
     opacity: 1;
@@ -2185,6 +2203,7 @@ ul.blog-instagram-feed-widget li {
 .home-alt .promotions-img {
     position: relative;
 }
+
 .home-alt .promotions-img::after {
     background: #000000 none repeat scroll 0 0;
     content: "";
@@ -2223,10 +2242,10 @@ ul.blog-instagram-feed-widget li {
 .home-alt .single-promotions:hover .promotions-img::after {
     opacity: 0.5;
 }
+
 /*==================================
         END OF MAIN STYLESHEET
 ====================================*/
-
 
 .carousel-cont {
     position: relative;
@@ -2257,11 +2276,11 @@ ul.blog-instagram-feed-widget li {
 }
 
 [content-es] {
-  display: block;
+    display: block;
 }
 
 [content-en] {
-  display: none;
+    display: none;
 }
 
 .btn-cust {
@@ -2270,15 +2289,15 @@ ul.blog-instagram-feed-widget li {
     outline: 0;
     transition: background-color 0.3s ease;
     font-size: 13px;
-    text-transform: uppercase;;
+    text-transform: uppercase;
+    ;
     border: 0;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     border-radius: 20px;
-    font-weight: 800!important;
+    font-weight: 800 !important;
     display: inline-flex;
-
 }
 
 .btn-cust:hover {
@@ -2288,6 +2307,15 @@ ul.blog-instagram-feed-widget li {
 .btn-cust:active {
     filter: brightness(85%);
 }
+
 /*.navbar-brand {
     padding: 0 15px;
 }*/
+
+.navbar-brand>img {
+    max-width: 80%;
+}
+
+.container {
+    width: 87.5%
+}

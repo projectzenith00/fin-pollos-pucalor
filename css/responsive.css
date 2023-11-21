@@ -79,35 +79,40 @@
     padding-right: 1.5%;
     padding-left: 1.5%;
 }
-
+.navbar .container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
 .navbar-brand {
     padding: 5px 15px 0 15px;
 }
-@media (min-width: 992px) {
+.navbar-brand > img {
+    max-width: 80%;
+}
+
+@media (min-width: 1200px) {
     .navbar .container {
-        /*padding-left: 2%;
-        padding-right: 2%;*/
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+        width: 93.5%;
+    }
+}
+
+@media (min-width: 1900px) {
+    body {
+        font-size: 0.83vw;
+    }
+    .navbar .container {
+        width: 70%;
     }
 
-    .is-sticky .mainmenu-area .navbar .container {
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-    }
-    .is-sticky .mainmenu-area .navbar-header {
-        max-width: 20%;
+    ul#nav li a {
+        font-size: 0.73vw;
     }
 
-    .navbar-header,
-    .is-sticky .navbar-header {
-        max-width: 25%;
-    }
-    .about-area .content-es .row, .about-area .content-en .row {
-        padding-bottom: 7%;
+    .is-sticky ul#nav li a {
+        padding: 30px 15px;
+        color: #1a1a1a;
+        font-size: 0.64vw;
     }
 }

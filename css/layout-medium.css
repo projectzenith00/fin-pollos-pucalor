@@ -9,14 +9,17 @@
     .big-text {
         font-size: 7.273vw;
     }
-    /* .navbar-header {
-        margin-top: -8px;
-    }*/
+     .navbar-header {
+        width: 33%;
+    }
     .navbar-header img {
         -webkit-transition: 0.3s;
         transition: 0.3s;
     }
     .navbar .container {
+        width: 95%;
+        padding-top: 0.4%;
+        padding-bottom: 0.4%;
     }
     .top-social-cust {
         display: flex;
@@ -25,15 +28,16 @@
         align-content: center;
     }
     .is-sticky .navbar-header img {
-        width: 80%;
-        margin-top: -5px;
+        width: 75%;
     }
     ul#nav li a {
         padding: 30px 15px;
         letter-spacing: 0;
+        font-size: 1.03vw;
     }
     .is-sticky ul#nav li a {
         padding: 20px 15px;
+        font-size: 1.02vw;
     }
     .search-form-area {
         padding: 25px 15px;
@@ -73,4 +77,34 @@
     display: flex;
     padding-top: 0.8%;
     padding-bottom: 0.8%;
+}
+
+
+.food-menu-details h3 {
+    font-size: 1.8vw;
+}
+
+.food-menu-img {
+
+    bottom: 1;
+   
+}
+
+
+.food-menu-details {
+    color: #1e1e1f;
+    padding-left:10%;
+    text-align: inherit;
+}
+
+
+.single-menu .single-menu-details {
+    margin-bottom: 20%;
+    padding-bottom:20%;
+    padding-top: 5%;
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
 }
