@@ -94,7 +94,9 @@
 
 @media (min-width: 1200px) {
     .navbar .container {
-        width: 93.5%;
+        width: auto;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
     }
 }
 

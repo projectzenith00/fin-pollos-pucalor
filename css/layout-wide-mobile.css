@@ -22,12 +22,12 @@
         overflow-x: hidden;
     }
     /*------------------*/
-   .single-menu .single-menu-details {
+  /* .single-menu .single-menu-details {
        display: block;
        margin-bottom: 16%;
        padding-bottom: 16%;
        padding-left: 0;
-   }
+   }*/
     .food-menu-img {
         float: left;
         margin-right: 5%;

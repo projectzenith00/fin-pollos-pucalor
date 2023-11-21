@@ -33,11 +33,11 @@
     ul#nav li a {
         padding: 30px 15px;
         letter-spacing: 0;
-        font-size: 1.03vw;
+        font-size: 1.09vw;
     }
     .is-sticky ul#nav li a {
         padding: 20px 15px;
-        font-size: 1.02vw;
+        font-size: 1.06vw;
     }
     .search-form-area {
         padding: 25px 15px;
@@ -72,6 +72,25 @@
         max-height: 350px;
         width: 40%;
     }
+
+    .food-menu-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+/*    .single-menu .single-menu-details {
+        padding-top: 10%;
+        padding-left: 20%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: center;
+        margin-bottom: auto;
+        padding-bottom: 14%;
+    }*/
+
+
+
 }
 .headerInfo-contact-social-row {
     display: flex;
@@ -84,27 +103,19 @@
     font-size: 1.8vw;
 }
 
-.food-menu-img {
-
-    bottom: 1;
-   
-}
-
-
 .food-menu-details {
     color: #1e1e1f;
-    padding-left:10%;
+    /*padding-left:10%;*/
     text-align: inherit;
 }
 
-
-.single-menu .single-menu-details {
-    margin-bottom: 20%;
-    padding-bottom:20%;
-    padding-top: 5%;
+/*.single-menu .single-menu-details {
+    padding-top: 10%;
     padding-left: 20%;
     display: flex;
     flex-direction: column;
     align-content: space-between;
     justify-content: center;
-}
+    margin-bottom: auto;
+    padding-bottom: 14%;
+}*/

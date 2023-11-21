@@ -220,28 +220,41 @@
         font-size: 3vw;
     }
     .food-menu-img img {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     }
-    .single-menu .single-menu-details {
+   /* .single-menu .single-menu-details {
         margin-bottom: 16%;
         padding-bottom:16%;
         padding-left: 5%;
         display: block;
+    }*/
+
+    .food-menu-details {
+        color: #1e1e1f;
+        padding-left: 5%;
+        text-align: inherit;
     }
+
     .food-menu-details h3 {
         padding-top: 5%;
-        font-size: 3.8vw;
+        font-size: 4.7vw;
+        margin-bottom: 8px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+
     }
     .food-menu-img {
         float: left;
-        margin-right: 12%;
+        /*margin-right: 12%;*/
         position: inherit;
     }
     .food-menu-details h3 span {
         float: inherit;
-        margin-top: 5px;
+        /*margin-top: 5px;*/
         display: block;
+        margin-left: 5px;
     }
     .food-menu-details p span {
         width: inherit;
