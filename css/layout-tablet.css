@@ -6,6 +6,9 @@
     body {
         font-size: 1.9vw;
     }
+    .top-social-bookmark ul li a {
+        font-size: 1.7vw;
+    }
 
     /* .header-top-area .container {
         padding: 1% 1.5%;
@@ -244,7 +247,15 @@
     /*-----------------------------
             MENU SECTION
         ------------------------------*/
-  /* .single-menu .single-menu-details {
+    .headerInfo-contact-social-row {
+        display: flex;
+        padding-top: 0.8%;
+        padding-bottom: 0.8%;
+    }
+    /*   .navbar-header {
+        width: 100%;
+    }*/
+    /*.single-menu .single-menu-details {
        margin-bottom: 8%;
        padding-bottom: 12%;
        padding-top: 5%;
@@ -254,18 +265,4 @@
        align-content: space-between;
        justify-content: center;
    }*/
-    .headerInfo-contact-social-row {
-        display: flex;
-        padding-top: 0.8%;
-        padding-bottom: 0.8%;
-    }
-    /*   .navbar-header {
-        width: 100%;
-    }*/
-}
-
-.navbar > .container .navbar-brand,
-.navbar > .container-fluid .navbar-brand {
-    margin-left: auto;
-    margin-top: auto;
 }

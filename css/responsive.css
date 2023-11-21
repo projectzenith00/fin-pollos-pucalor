@@ -107,11 +107,9 @@
     .navbar .container {
         width: 70%;
     }
-
     ul#nav li a {
         font-size: 0.73vw;
     }
-
     .is-sticky ul#nav li a {
         padding: 30px 15px;
         color: #1a1a1a;
