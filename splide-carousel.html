@@ -36,10 +36,10 @@
         <link href="css/layout-tablet.css" rel="stylesheet" />
         <link href="css/layout-mobile.css" rel="stylesheet" />
         <link href="css/layout-wide-mobile.css" rel="stylesheet" />
- 
+
         <!--====== SPLIDE REFERENCE FILES ======-->
-        <link rel="stylesheet" href="splide-carousel/splide/dist/css/splide.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css">
+        <link rel="stylesheet" href="splide-carousel/splide/dist/css/splide.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css" />
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js"></script>
         <script src="splide-carousel/splide/dist/js/splide.min.js"></script>
 
@@ -252,10 +252,10 @@
                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                             <div class="about-content">
                                 <p>
-                                    <span class="big-text">In</span> 1996, Mr. Puentes had a vision: to introduce the world to the exquisite flavor of Colombian-style roast chicken. With that dream he opened Pollos Pucalor. the
-                                    beginning, the The essence of our brand has been rooted in authenticity, passion and the rich culinary traditions of Colombia. Our motto, "Serve the Customer," reflects our unwavering commitment to
-                                    putting to our clients first. At Pollos Pucalor we believe that the core of any successful business lies in the happiness and satisfaction of its customers. Every time you walk through our doors, You can
-                                    expect top-notch quality, impeccable service and prices that offer great value.
+                                    <span class="big-text">In</span> 1996, Mr. Puentes had a vision: to introduce the world to the exquisite flavor of Colombian-style roast chicken. With that dream he opened Pollos Pucalor. the beginning,
+                                    the The essence of our brand has been rooted in authenticity, passion and the rich culinary traditions of Colombia. Our motto, "Serve the Customer," reflects our unwavering commitment to putting to our
+                                    clients first. At Pollos Pucalor we believe that the core of any successful business lies in the happiness and satisfaction of its customers. Every time you walk through our doors, You can expect
+                                    top-notch quality, impeccable service and prices that offer great value.
                                 </p>
                             </div>
                         </div>
@@ -875,24 +875,36 @@
                 </div>
                 <div class="row">
                     <div class="carousel-cont col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                        <div class="">
-                            <div class="text-center">
-                                <div class="splide carouseIMG" aria-label="Splide Basic HTML Example">
-                                  <div class="splide__track">
-                                        <ul class="splide__list">
-                                            <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/chicharron.jpeg" alt="aneirin"></li>
-                                            <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/promotions_area_bg_1.jpeg" alt="dristi"></li>
-                                            <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/promotions_area_bg_2.jpeg" alt="charmaine"></li>
-                                            <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/promotions_area_bg_3.jpeg" alt="em"></li>
-                                            <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/whole_chicken.jpeg" alt="gill"></li>
-                                        </ul>
-                                  </div>
+                        <div class="text-center">
+                            <div id="main-carousel" class="splide" aria-label="Splide Basic HTML Example">
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/chicharron.jpeg" alt="aneirin" /></li>
+                                        <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/promotions_area_bg_1.jpeg" alt="dristi" /></li>
+                                        <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/promotions_area_bg_2.jpeg" alt="charmaine" /></li>
+                                        <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/promotions_area_bg_3.jpeg" alt="em" /></li>
+                                        <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/whole_chicken.jpeg" alt="gill" /></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div id="thumbnail-carousel" class="splide" aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/chicharron.jpeg" alt="aneirin" /></li>
+                                        <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/promotions_area_bg_1.jpeg" alt="dristi" /></li>
+                                        <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/promotions_area_bg_2.jpeg" alt="charmaine" /></li>
+                                        <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/promotions_area_bg_3.jpeg" alt="em" /></li>
+                                        <li class="splide__slide" data-splide-interval="1000"><img src="splide-carousel/images/whole_chicken.jpeg" alt="gill" /></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </section>
+
         <!--BLOG AREA END-->
         <!--INSTAGRAM GALLERY FEED-->
         <section class="gallery-area section-padding" id="gallery">
@@ -1060,8 +1072,7 @@
         <!--FOOTER AREA END-->
         <!--====== SCRIPTS JS ======-->
 
-
-        <script>
+        <!-- <script>
           new Splide( '.splide', {
                 updateOnMove: true,
                 type        : 'loop',
@@ -1075,6 +1086,38 @@
                 gap         : '5rem',
                 padding     : '20%',
             } ).mount();
+        </script> -->
+
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function () {
+                var main = new Splide("#main-carousel", {
+                    type: "fade",
+                    rewind: true,
+                    pagination: false,
+                    arrows: false,
+                });
+
+                var thumbnails = new Splide("#thumbnail-carousel", {
+                    fixedWidth: 200,
+                    autoHeight: true,
+                    gap: 20,
+                    perPage: 3,
+                    rewind: true,
+                    pagination: false,
+                    arrows: false,
+                    isNavigation: true,
+                    breakpoints: {
+                        600: {
+                            fixedWidth: 150,
+                            autoHeight: true,
+                        },
+                    },
+                });
+
+                main.sync(thumbnails);
+                main.mount();
+                thumbnails.mount();
+            });
         </script>
 
         <script>
