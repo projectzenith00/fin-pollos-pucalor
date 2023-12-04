@@ -780,12 +780,14 @@ a.read-more {
 .reservation-button-area-bg,
 .blog-area-bg,
 .footer-area-bg {
-    background: rgba(0, 0, 0, 0) url("img/promotions/promotions_area_bg_1.jpeg") no-repeat scroll center center / cover;
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
+}
+.footer-area-bg {
+    background: rgba(0, 0, 0, 0) url("img/promotions/promotions_area_bg_1.jpeg") no-repeat scroll center center / cover;
 }
 
 .promotion-area-bg::after,
@@ -1213,12 +1215,17 @@ option {
 
 .blog-area {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0) url("img/AdobeStock_78589840.jpeg") no-repeat scroll center center / cover!important;
+    }
 }
 
-.blog-area-bg {
-    background: rgba(0, 0, 0, 0) url("img/AdobeStock_78589840.jpeg") no-repeat scroll center center / cover;
+/*.blog-area-bg {
+    background: rgba(0, 0, 0, 0) url("img/AdobeStock_78589840.jpeg") no-repeat scroll center center / cover!important;
     
-}
+}*/
 
 .post-details {
     background: #fff none repeat scroll 0 0;
