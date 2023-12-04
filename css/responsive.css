@@ -126,7 +126,10 @@
         padding-left: 2.2%;
 
     }
-    
+    .blog-area .container {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }
 @media (max-width: 1024px) {
 
