@@ -4,10 +4,13 @@
 
 @media only screen and (max-width: 767px) {
     body {
-        font-size: 4.4vw;
+        /* font-size: 4.4vw; */
     }
     div.call-to-action p {
         font-size: 2.9vw;
+    }
+    .top-bar {
+        display: none;
     }
     .header-top-area .container {
         padding: 1% 2%;
@@ -32,15 +35,20 @@
     .section-padding {
         padding: 5.05% 4%;
     }
+    .area-title h2 {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5px;
+    }
     .area-title h2,
     .about-area .area-title h2,
     .resarvation-from-button.text-center h2 {
         font-size: 11.25vw;
         margin: 4% 0% 2% 0%;
     }
-    .about-area h3 {
+    /* .about-area h3 {
         font-size: 4.6vw;
-    }
+    } */
     .area-title h2::before {
         left: -50px;
         width: 50px;
@@ -66,10 +74,6 @@
         display: none;
         padding: 8px;
     }
-    .navbar-brand > img {
-        margin-left: 7%;
-        max-width: 55%;
-    }
     .navbar-toggle {
         margin-top: 1%;
         margin-right: 3%;
@@ -83,12 +87,12 @@
         align-content: center;*/
     }
     .navbar-brand > img {
-        margin-left: 7%;
-        max-width: 100%;
+        margin-left: 0;
+        max-width: 200px;
     }
-    .is-sticky .navbar-brand {
+    /* .is-sticky .navbar-brand {
         margin-top: -10px;
-    }
+    } */
 
     .search-form-area {
         display: none;
@@ -184,13 +188,16 @@
     .welcome-text h1 {
         font-size: 10vw;
     }
-    .slider-area h2,
-    .welcome-text h2 {
+    .slider-area h2 {
         font-size: 14vw;
     }
-    .about-area .area-title h2 span {
-        font-size: 12.5vw;
+    .about-area .area-title h2 {
+        padding-bottom: 0px;
     }
+    /* .about-area .area-title h2 span {
+        font-size: 12.5vw;
+    } */
+
     .about-area .area-title {
         margin-bottom: 30px;
         text-align: center;
@@ -210,6 +217,8 @@
     }
     .promotions-img img {
         width: 100%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
     }
     .promotions-details h4 {
         font-size: 12.5vw;
@@ -222,8 +231,8 @@
         font-size: 4.2vw;
     }
     .food-menu-img img {
-        width: 70px;
-        height: 70px;
+        max-width: 60px;
+        max-height: 60px;
     }
     /* .single-menu .single-menu-details {
         margin-bottom: 16%;
@@ -240,7 +249,6 @@
 
     .food-menu-details h3 {
         padding-top: 5%;
-        font-size: 4.7vw;
         margin-bottom: 8px;
         display: inline-flex;
         flex-wrap: wrap;
@@ -250,6 +258,8 @@
         float: left;
         /*margin-right: 12%;*/
         position: inherit;
+        -webkit-box-shadow: 0 0 0 5px #ddd;
+        box-shadow: 0 0 0 5px #ddd;
     }
     .food-menu-details h3 span {
         float: inherit;
@@ -284,10 +294,12 @@
         padding: 25px;
         position: inherit;
         width: 100%;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
     }
-    .promotions-details h3 {
+    /* .promotions-details h3 {
         font-size: 6.25vw;
-    }
+    } */
     .promotions-area .row > div:last-child .single-promotions .read-more {
         margin-bottom: 0;
     }
@@ -385,5 +397,17 @@
     }
     .container {
         width: 95.7%;
-    } 
+    }
+    .splide__slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    #thumbnail-carousel {
+        width: 75%;
+    }
+
+
+
+
 }

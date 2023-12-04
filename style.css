@@ -86,7 +86,6 @@ body {
 body {
     color: #555555;
     font-family: "Lato", sans-serif;
-    font-size: 1.05vw;
     font-weight: 400;
     letter-spacing: 0.3px;
     line-height: 1.7em;
@@ -662,8 +661,13 @@ a.search-form-trigger::before {
 ------------------------------*/
 
 .about-area {
-    background: rgba(0, 0, 0, 0) url("img/about/home_three_about_bg.png") no-repeat scroll center bottom / contain;
+    /*background: rgba(0, 0, 0, 0) url("img/about/home_three_about_bg.png") no-repeat scroll center bottom / contain;
+    position: relative;*/
+    display: flex;
+    background: rgba(0, 0, 0, 0) url("img/about/home_three_about_bg.png") no-repeat fixed bottom center / contain;
     position: relative;
+    min-height: 100vh;
+    align-items: center;
 }
 
 .about-area::after,
@@ -709,13 +713,13 @@ a.search-form-trigger::before {
 }
 
 .about-area .area-title h2 {
-    font-size: 5.5vw;
+    /* font-size: 5.5vw; */
     padding-bottom: 10px;
     position: relative;
 }
 
 .about-area h3 {
-    font-size: 1.4vw;
+    /* font-size: 1.4vw; */
     padding-bottom: 0;
     position: relative;
     padding-bottom: 1%;
@@ -786,7 +790,7 @@ a.read-more {
 
 .promotion-area-bg::after,
 .reservation-button-area-bg:after,
-.blog-area-bg:after,
+/* .blog-area-bg:after, */
 .footer-area-bg::after,
 .page-barner-bg::after {
     background: #000 url(img/pattarn.png);
@@ -799,10 +803,15 @@ a.read-more {
     width: 100%;
 }
 
+
 .promotions-img {
-    height: auto;
-    max-height: 450px;
-    width: 70%;
+    height: 100%;
+    /* max-height: 450px; */
+    width: 100%;
+}
+
+.promotions-img img {
+    border-radius: 20px;
 }
 
 .promotions-details {
@@ -815,13 +824,19 @@ a.read-more {
     position: absolute;
     right: 0;
     top: 50%;
+    right: 2.5%;
     width: 40%;
     z-index: 9;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
-.promotions-details h3 {
+/* .promotions-details h3 {
     font-size: 30px;
-}
+} */
 
 .promotions-details a.read-more {
     margin-top: 25px;
@@ -1174,7 +1189,7 @@ option {
 }
 
 .member-details>h3 {
-    font-size: 20px;
+    /* font-size: 20px; */
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     letter-spacing: 1px;
@@ -1201,7 +1216,8 @@ option {
 }
 
 .blog-area-bg {
-    background: rgba(0, 0, 0, 0) url("img/promotions/promotions_area_bg_3.jpeg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("img/AdobeStock_78589840.jpeg") no-repeat scroll center center / cover;
+    
 }
 
 .post-details {
@@ -2050,7 +2066,7 @@ ul.blog-instagram-feed-widget li {
 }
 
 .welcome-text {
-    font-size: 18px;
+    /* font-size: 18px; */
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -2058,7 +2074,6 @@ ul.blog-instagram-feed-widget li {
 
 .welcome-text h2 {
     font-family: "Dancing Script", cursive;
-    font-size: 82px;
     text-transform: capitalize;
 }
 
@@ -2330,10 +2345,66 @@ ul.blog-instagram-feed-widget li {
     padding: 0 15px;
 }*/
 
-.navbar-brand>img {
-    max-width: 80%;
+.navbar-brand > img {
+    width: 280px;
+    height: auto;
 }
 
 .container {
-    width: 87.5%
-} 
+    width: auto;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.splide__list li {
+    border-radius: 20px;
+}
+li.splide__slide img{
+    border-radius: 20px;
+}
+.splide__track--nav > .splide__list > .splide__slide.is-active {
+    border: 0px solid transparent!important;
+}
+.main-carousel .splide__slide img {
+    width:  10%;
+    height: auto;
+    object-fit: cover;
+  }
+#thumbnail-carousel {
+    padding-top: 5%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+}
+
+.card {
+    background: transparent;
+    border-radius: 16px;
+    backdrop-filter: blur(0.65em);
+    -webkit-backdrop-filter: blur(0.65em);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.3) 100%);
+    /* display: inline-flex;
+    vertical-align: middle; */
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+
+}
+
+ 
+.card:hover, .card:focus, .card:active {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.75);
+    -webkit-transform: scale(1.03) translateY(-8px);
+    transform: scale(1.03) translateY(-2%);
+  }

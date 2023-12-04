@@ -3,9 +3,9 @@
 -----------------------------------*/
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    body {
+    /* body {
         font-size: 1.364vw;
-    }
+    } */
     .big-text {
         font-size: 7.273vw;
     }
@@ -16,8 +16,10 @@
         -webkit-transition: 0.3s;
         transition: 0.3s;
     }
-    .navbar .container {
+    .container {
         width: auto;
+    }
+    .navbar .container {
         padding-top: 0.4%;
         padding-bottom: 0.4%;
     }
@@ -33,7 +35,7 @@
     ul#nav li a {
         padding: 30px 15px;
         letter-spacing: 0;
-        font-size: 1.09vw;
+        /* font-size: 1.09vw; */
     }
     .is-sticky ul#nav li a {
         padding: 20px 15px;
@@ -49,8 +51,7 @@
     .welcome-text h1 {
         font-size: 4.545vw;
     }
-    .slider-area h2,
-    .welcome-text h2 {
+    .slider-area h2 {
         font-size: 6.364vw;
     }
     .about-area .area-title {

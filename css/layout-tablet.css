@@ -13,10 +13,10 @@
     /* .header-top-area .container {
         padding: 1% 1.5%;
     }*/
-    .navbar .container {
+    /* .navbar .container {
         display: block;
         vertical-align: middle;
-    }
+    } */
 
     .top-social-cust {
         display: flex !important;
@@ -47,6 +47,12 @@
         border: 2px solid #fff;
         border-radius: 0;
         display: block !important;
+    }
+    .is-sticky .navbar .container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 4%;
+        padding-right: 4%;
     }
     .is-sticky .navbar-header .collapse,
     .is-sticky .navbar-toggle {
@@ -126,9 +132,9 @@
         padding: unset;
         margin-left: auto;
     }
-    .is-sticky .navbar-brand {
+    /* .is-sticky .navbar-brand {
         margin-top: -10px;
-    }
+    } */
     ul#nav li a {
         padding: 10px;
     }
@@ -193,9 +199,9 @@
         width: 100px;
         height: 100px;
     }
-    .food-menu-details h3 {
+    /* .food-menu-details h3 {
         font-size: 2.6vw;
-    }
+    } */
     .promotions-area .row > div:last-child .single-promotions .read-more {
         margin-bottom: 0;
     }

@@ -1,0 +1,41 @@
+/* h3 {
+  font-size: clamp(15px, calc(0.9375rem + ((1vw - 3.2px) * 1.25)), 26px);
+  min-height: 0vw;
+} */
+body {
+  font-size: clamp(15px, calc(0.9375rem + ((1vw - 3.2px) * 0.2273)), 17px);
+  min-height: 0vw;
+}
+.h3, h3 {
+  font-size: clamp(24px, calc(1.5rem + ((1vw - 3.2px) * 0.2273)), 26px);
+  min-height: 0vw;
+}
+.welcome-text h2,  .about-area .area-title h2,  .area-title h2, .about-area .area-title h2, .resarvation-from-button.text-center h2 {
+  font-size: clamp(60px, calc(3.75rem + ((1vw - 3.2px) * 2.5)), 82px);
+  min-height: 0vw;
+  line-height: 1.1;
+}
+.about-area h3 {
+  font-size: clamp(22px, calc(1.375rem + ((1vw - 3.2px) * -0.2273)), 20px);
+  min-height: 0vw;
+}
+.big-text {
+  font-size: clamp(80px, calc(5rem + ((1vw - 3.2px) * 3.4091)), 110px);
+  min-height: 0vw;
+}
+.promotions-details h3 {
+  font-size: clamp(23px, calc(1.4375rem + ((1vw - 3.2px) * 0.7955)), 30px);
+  min-height: 0vw;
+}
+.food-menu-details h3 {
+  font-size: clamp(19px, calc(1.1875rem + ((1vw - 3.2px) * 0.5682)), 24px);
+  min-height: 0vw;
+}
+ul#nav li a {
+  font-size: clamp(14px, calc(0.875rem + ((1vw - 3.2px) * 0.2273)), 16px);
+  min-height: 0vw;
+}
+.food-menu-list-menu ul li {
+  font-size: clamp(16px, calc(1rem + ((1vw - 3.2px) * 0)), 16px);
+  min-height: 0vw;
+}
