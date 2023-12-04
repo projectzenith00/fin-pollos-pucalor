@@ -786,7 +786,8 @@ a.read-more {
     top: 0;
     width: 100%;
 }
-.footer-area-bg {
+.footer-area-bg, 
+.promotion-area-bg {
     background: rgba(0, 0, 0, 0) url("img/promotions/promotions_area_bg_1.jpeg") no-repeat scroll center center / cover;
 }
 
